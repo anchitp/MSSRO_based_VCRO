@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![CI](https://github.com/efabless/caravel_user_project_analog/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_user_project_analog/actions/workflows/user_project_ci.yml) [![Caravan Build](https://github.com/efabless/caravel_user_project_analog/actions/workflows/caravan_build.yml/badge.svg)](https://github.com/efabless/caravel_user_project_analog/actions/workflows/caravan_build.yml)
 
 ---
-# An MSSRO-based VCRO (An SSCS PICO Project)
+# MSSRO-based VCRO (An SSCS PICO Project)
 A high-performance, separately driven, noise cancelling, skew-based Voltage Controlled Ring-Oscillator designed in the SKY130 Process.
 ## Table of Contents
 1. Block Diagram
