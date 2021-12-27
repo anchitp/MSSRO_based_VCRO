@@ -65,7 +65,7 @@ The proposed VCO architecture exhibits a fixed phase noise profile for a specifi
 **Core Layout**
 ![Layout_1](https://github.com/anchitp/Project_VCO/blob/main/docs/plots/Layout.jpg)
 **Caravan View**
-![Layout_2](https://github.com/anchitp/Project_VCO/blob/main/docs/plots/Buffer_Layout.jpg)
+![Layout_2](https://github.com/anchitp/MSSRO_based_VCRO/blob/main/docs/plots/Top_Layout.jpg)
 
 ## Simulation Results
 ### Pre-Layout
