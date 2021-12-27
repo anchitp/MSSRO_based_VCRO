@@ -14,7 +14,7 @@ A high-performance, separately driven, noise cancelling, skew-based Voltage Cont
 8. References
 
 ## Block Diagram
-|**(a) A general skew based voltage controlled oscillator (VCO)**| **(b) A precharge/discharge skew based delay cell**|
+|**(a) A general skew based voltage controlled oscillator (VCO)**| **(b) A precharge/discharge based delay cell**|
 |---          |----          |
 |![Block_A](https://github.com/anchitp/MSSRO_based_VCRO/blob/main/docs/plots/block_diagram.svg)|![Block_B](https://github.com/anchitp/MSSRO_based_VCRO/blob/main/docs/plots/precharge_predischarge.svg)|
 
