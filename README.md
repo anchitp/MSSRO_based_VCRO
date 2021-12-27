@@ -22,7 +22,7 @@ A high-performance, separately driven, noise cancelling, skew-based Voltage Cont
 ## Circuit Diagram
 |**(c) Connection mechanism for the design of 5-stage NSO based voltage controlled ring oscillator**|
 |---          |
-|![Block_C](https://efabless-user-uploads.s3.amazonaws.com/9d47ca89-63a9-4757-823e-935e5ccd27af/imagetools0.png)|
+|![Block_C](https://github.com/anchitp/MSSRO_based_VCRO/blob/main/docs/plots/architecture.svg)|
 
 
 ## Project Description
