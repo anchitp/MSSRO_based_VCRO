@@ -1,0 +1,1095 @@
+* NGSPICE file created from user_analog_project_wrapper_flat.ext - technology: sky130A
+
+.subckt user_analog_project_wrapper_flat gpio_analog[0] gpio_analog[10] gpio_analog[11]
++ gpio_analog[12] gpio_analog[13] gpio_analog[14] gpio_analog[15] gpio_analog[16]
++ gpio_analog[17] gpio_analog[1] gpio_analog[2] gpio_analog[3] gpio_analog[4]
++ gpio_analog[5] gpio_analog[6] gpio_analog[7] gpio_analog[8] gpio_analog[9]
++ gpio_noesd[0] gpio_noesd[10] gpio_noesd[11] gpio_noesd[12] gpio_noesd[13]
++ gpio_noesd[14] gpio_noesd[15] gpio_noesd[16] gpio_noesd[17] gpio_noesd[1]
++ gpio_noesd[2] gpio_noesd[3] gpio_noesd[4] gpio_noesd[5] gpio_noesd[6]
++ gpio_noesd[7] gpio_noesd[8] gpio_noesd[9] io_analog[0] io_analog[10]
++ io_analog[1] io_analog[2] io_analog[3] io_analog[4] io_analog[5]
++ io_analog[6] io_analog[7] io_analog[8] io_analog[9] io_in[0]
++ io_in[10] io_in[11] io_in[12] io_in[13] io_in[14]
++ io_in[15] io_in[16] io_in[17] io_in[18] io_in[19]
++ io_in[1] io_in[20] io_in[21] io_in[22] io_in[23]
++ io_in[24] io_in[25] io_in[26] io_in[2] io_in[3]
++ io_in[4] io_in[5] io_in[6] io_in[7] io_in[8]
++ io_in[9] io_in_3v3[0] io_in_3v3[10] io_in_3v3[11] io_in_3v3[12]
++ io_in_3v3[13] io_in_3v3[14] io_in_3v3[15] io_in_3v3[16] io_in_3v3[17]
++ io_in_3v3[18] io_in_3v3[19] io_in_3v3[1] io_in_3v3[20] io_in_3v3[21]
++ io_in_3v3[22] io_in_3v3[23] io_in_3v3[24] io_in_3v3[25] io_in_3v3[26]
++ io_in_3v3[2] io_in_3v3[3] io_in_3v3[4] io_in_3v3[5] io_in_3v3[6]
++ io_in_3v3[7] io_in_3v3[8] io_in_3v3[9] io_oeb[0] io_oeb[10]
++ io_oeb[11] io_oeb[12] io_oeb[13] io_oeb[14] io_oeb[15]
++ io_oeb[16] io_oeb[17] io_oeb[18] io_oeb[19] io_oeb[1]
++ io_oeb[20] io_oeb[21] io_oeb[22] io_oeb[23] io_oeb[24]
++ io_oeb[25] io_oeb[26] io_oeb[2] io_oeb[3] io_oeb[4]
++ io_oeb[5] io_oeb[6] io_oeb[7] io_oeb[8] io_oeb[9]
++ io_out[0] io_out[10] io_out[11] io_out[12] io_out[13]
++ io_out[14] io_out[15] io_out[16] io_out[17] io_out[18]
++ io_out[19] io_out[1] io_out[20] io_out[21] io_out[22]
++ io_out[23] io_out[24] io_out[25] io_out[26] io_out[2]
++ io_out[3] io_out[4] io_out[5] io_out[6] io_out[7]
++ io_out[8] io_out[9] la_data_in[0] la_data_in[100] la_data_in[101]
++ la_data_in[102] la_data_in[103] la_data_in[104] la_data_in[105] la_data_in[106]
++ la_data_in[107] la_data_in[108] la_data_in[109] la_data_in[10] la_data_in[110]
++ la_data_in[111] la_data_in[112] la_data_in[113] la_data_in[114] la_data_in[115]
++ la_data_in[116] la_data_in[117] la_data_in[118] la_data_in[119] la_data_in[11]
++ la_data_in[120] la_data_in[121] la_data_in[122] la_data_in[123] la_data_in[124]
++ la_data_in[125] la_data_in[126] la_data_in[127] la_data_in[12] la_data_in[13]
++ la_data_in[14] la_data_in[15] la_data_in[16] la_data_in[17] la_data_in[18]
++ la_data_in[19] la_data_in[1] la_data_in[20] la_data_in[21] la_data_in[22]
++ la_data_in[23] la_data_in[24] la_data_in[25] la_data_in[26] la_data_in[27]
++ la_data_in[28] la_data_in[29] la_data_in[2] la_data_in[30] la_data_in[31]
++ la_data_in[32] la_data_in[33] la_data_in[34] la_data_in[35] la_data_in[36]
++ la_data_in[37] la_data_in[38] la_data_in[39] la_data_in[3] la_data_in[40]
++ la_data_in[41] la_data_in[42] la_data_in[43] la_data_in[44] la_data_in[45]
++ la_data_in[46] la_data_in[47] la_data_in[48] la_data_in[49] la_data_in[4]
++ la_data_in[50] la_data_in[51] la_data_in[52] la_data_in[53] la_data_in[54]
++ la_data_in[55] la_data_in[56] la_data_in[57] la_data_in[58] la_data_in[59]
++ la_data_in[5] la_data_in[60] la_data_in[61] la_data_in[62] la_data_in[63]
++ la_data_in[64] la_data_in[65] la_data_in[66] la_data_in[67] la_data_in[68]
++ la_data_in[69] la_data_in[6] la_data_in[70] la_data_in[71] la_data_in[72]
++ la_data_in[73] la_data_in[74] la_data_in[75] la_data_in[76] la_data_in[77]
++ la_data_in[78] la_data_in[79] la_data_in[7] la_data_in[80] la_data_in[81]
++ la_data_in[82] la_data_in[83] la_data_in[84] la_data_in[85] la_data_in[86]
++ la_data_in[87] la_data_in[88] la_data_in[89] la_data_in[8] la_data_in[90]
++ la_data_in[91] la_data_in[92] la_data_in[93] la_data_in[94] la_data_in[95]
++ la_data_in[96] la_data_in[97] la_data_in[98] la_data_in[99] la_data_in[9]
++ la_data_out[0] la_data_out[100] la_data_out[101] la_data_out[102] la_data_out[103]
++ la_data_out[104] la_data_out[105] la_data_out[106] la_data_out[107] la_data_out[108]
++ la_data_out[109] la_data_out[10] la_data_out[110] la_data_out[111] la_data_out[112]
++ la_data_out[113] la_data_out[114] la_data_out[115] la_data_out[116] la_data_out[117]
++ la_data_out[118] la_data_out[119] la_data_out[11] la_data_out[120] la_data_out[121]
++ la_data_out[122] la_data_out[123] la_data_out[124] la_data_out[125] la_data_out[126]
++ la_data_out[127] la_data_out[12] la_data_out[13] la_data_out[14] la_data_out[15]
++ la_data_out[16] la_data_out[17] la_data_out[18] la_data_out[19] la_data_out[1]
++ la_data_out[20] la_data_out[21] la_data_out[22] la_data_out[23] la_data_out[24]
++ la_data_out[25] la_data_out[26] la_data_out[27] la_data_out[28] la_data_out[29]
++ la_data_out[2] la_data_out[30] la_data_out[31] la_data_out[32] la_data_out[33]
++ la_data_out[34] la_data_out[35] la_data_out[36] la_data_out[37] la_data_out[38]
++ la_data_out[39] la_data_out[3] la_data_out[40] la_data_out[41] la_data_out[42]
++ la_data_out[43] la_data_out[44] la_data_out[45] la_data_out[46] la_data_out[47]
++ la_data_out[48] la_data_out[49] la_data_out[4] la_data_out[50] la_data_out[51]
++ la_data_out[52] la_data_out[53] la_data_out[54] la_data_out[55] la_data_out[56]
++ la_data_out[57] la_data_out[58] la_data_out[59] la_data_out[5] la_data_out[60]
++ la_data_out[61] la_data_out[62] la_data_out[63] la_data_out[64] la_data_out[65]
++ la_data_out[66] la_data_out[67] la_data_out[68] la_data_out[69] la_data_out[6]
++ la_data_out[70] la_data_out[71] la_data_out[72] la_data_out[73] la_data_out[74]
++ la_data_out[75] la_data_out[76] la_data_out[77] la_data_out[78] la_data_out[79]
++ la_data_out[7] la_data_out[80] la_data_out[81] la_data_out[82] la_data_out[83]
++ la_data_out[84] la_data_out[85] la_data_out[86] la_data_out[87] la_data_out[88]
++ la_data_out[89] la_data_out[8] la_data_out[90] la_data_out[91] la_data_out[92]
++ la_data_out[93] la_data_out[94] la_data_out[95] la_data_out[96] la_data_out[97]
++ la_data_out[98] la_data_out[99] la_data_out[9] la_oenb[0] la_oenb[100]
++ la_oenb[101] la_oenb[102] la_oenb[103] la_oenb[104] la_oenb[105]
++ la_oenb[106] la_oenb[107] la_oenb[108] la_oenb[109] la_oenb[10]
++ la_oenb[110] la_oenb[111] la_oenb[112] la_oenb[113] la_oenb[114]
++ la_oenb[115] la_oenb[116] la_oenb[117] la_oenb[118] la_oenb[119]
++ la_oenb[11] la_oenb[120] la_oenb[121] la_oenb[122] la_oenb[123]
++ la_oenb[124] la_oenb[125] la_oenb[126] la_oenb[127] la_oenb[12]
++ la_oenb[13] la_oenb[14] la_oenb[15] la_oenb[16] la_oenb[17]
++ la_oenb[18] la_oenb[19] la_oenb[1] la_oenb[20] la_oenb[21]
++ la_oenb[22] la_oenb[23] la_oenb[24] la_oenb[25] la_oenb[26]
++ la_oenb[27] la_oenb[28] la_oenb[29] la_oenb[2] la_oenb[30]
++ la_oenb[31] la_oenb[32] la_oenb[33] la_oenb[34] la_oenb[35]
++ la_oenb[36] la_oenb[37] la_oenb[38] la_oenb[39] la_oenb[3]
++ la_oenb[40] la_oenb[41] la_oenb[42] la_oenb[43] la_oenb[44]
++ la_oenb[45] la_oenb[46] la_oenb[47] la_oenb[48] la_oenb[49]
++ la_oenb[4] la_oenb[50] la_oenb[51] la_oenb[52] la_oenb[53]
++ la_oenb[54] la_oenb[55] la_oenb[56] la_oenb[57] la_oenb[58]
++ la_oenb[59] la_oenb[5] la_oenb[60] la_oenb[61] la_oenb[62]
++ la_oenb[63] la_oenb[64] la_oenb[65] la_oenb[66] la_oenb[67]
++ la_oenb[68] la_oenb[69] la_oenb[6] la_oenb[70] la_oenb[71]
++ la_oenb[72] la_oenb[73] la_oenb[74] la_oenb[75] la_oenb[76]
++ la_oenb[77] la_oenb[78] la_oenb[79] la_oenb[7] la_oenb[80]
++ la_oenb[81] la_oenb[82] la_oenb[83] la_oenb[84] la_oenb[85]
++ la_oenb[86] la_oenb[87] la_oenb[88] la_oenb[89] la_oenb[8]
++ la_oenb[90] la_oenb[91] la_oenb[92] la_oenb[93] la_oenb[94]
++ la_oenb[95] la_oenb[96] la_oenb[97] la_oenb[98] la_oenb[99]
++ la_oenb[9] user_clock2 user_irq[0] user_irq[1] user_irq[2]
++ vccd2 vdda1 vdda2 vssa2 vssd1
++ vssd2 wb_clk_i wb_rst_i wbs_ack_o wbs_adr_i[0]
++ wbs_adr_i[10] wbs_adr_i[11] wbs_adr_i[12] wbs_adr_i[13] wbs_adr_i[14]
++ wbs_adr_i[15] wbs_adr_i[16] wbs_adr_i[17] wbs_adr_i[18] wbs_adr_i[19]
++ wbs_adr_i[1] wbs_adr_i[20] wbs_adr_i[21] wbs_adr_i[22] wbs_adr_i[23]
++ wbs_adr_i[24] wbs_adr_i[25] wbs_adr_i[26] wbs_adr_i[27] wbs_adr_i[28]
++ wbs_adr_i[29] wbs_adr_i[2] wbs_adr_i[30] wbs_adr_i[31] wbs_adr_i[3]
++ wbs_adr_i[4] wbs_adr_i[5] wbs_adr_i[6] wbs_adr_i[7] wbs_adr_i[8]
++ wbs_adr_i[9] wbs_cyc_i wbs_dat_i[0] wbs_dat_i[10] wbs_dat_i[11]
++ wbs_dat_i[12] wbs_dat_i[13] wbs_dat_i[14] wbs_dat_i[15] wbs_dat_i[16]
++ wbs_dat_i[17] wbs_dat_i[18] wbs_dat_i[19] wbs_dat_i[1] wbs_dat_i[20]
++ wbs_dat_i[21] wbs_dat_i[22] wbs_dat_i[23] wbs_dat_i[24] wbs_dat_i[25]
++ wbs_dat_i[26] wbs_dat_i[27] wbs_dat_i[28] wbs_dat_i[29] wbs_dat_i[2]
++ wbs_dat_i[30] wbs_dat_i[31] wbs_dat_i[3] wbs_dat_i[4] wbs_dat_i[5]
++ wbs_dat_i[6] wbs_dat_i[7] wbs_dat_i[8] wbs_dat_i[9] wbs_dat_o[0]
++ wbs_dat_o[10] wbs_dat_o[11] wbs_dat_o[12] wbs_dat_o[13] wbs_dat_o[14]
++ wbs_dat_o[15] wbs_dat_o[16] wbs_dat_o[17] wbs_dat_o[18] wbs_dat_o[19]
++ wbs_dat_o[1] wbs_dat_o[20] wbs_dat_o[21] wbs_dat_o[22] wbs_dat_o[23]
++ wbs_dat_o[24] wbs_dat_o[25] wbs_dat_o[26] wbs_dat_o[27] wbs_dat_o[28]
++ wbs_dat_o[29] wbs_dat_o[2] wbs_dat_o[30] wbs_dat_o[31] wbs_dat_o[3]
++ wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6] wbs_dat_o[7] wbs_dat_o[8]
++ wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3]
++ wbs_stb_i wbs_we_i vssa1 vccd1
+X0 esd_3/in vccd1 vccd1 vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X1 vssa1 vssa1 esd_4/in vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X2 a_481708_644918# a_483446_644892# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X3 vssa1 VCO_Flat_0/Buff_VCO_1/IN a_504724_647182# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X4 vssa1 vssa1 io_analog[5] vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X5 vccd1 a_471230_648050# esd_5/in vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X6 esd_0/in a_500126_647170# vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X7 vssa1 vssa1 esd_1/in vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X8 vccd1 a_475058_648060# a_473374_648060# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X9 a_487694_644902# VCO_Flat_0/Buff_VCO_3/IN VCO_Flat_0/Buff_VCO_2/IN vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X10 vssa1 a_479772_646886# a_493938_644874# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X11 io_analog[4] vccd1 vccd1 vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X12 vccd1 a_498236_647184# a_498928_647174# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X13 esd_5/in a_471230_648050# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X14 vssa1 a_468592_648062# a_466908_648062# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X15 vssa1 vssa1 io_analog[7] vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X16 vccd1 esd_1/in a_493974_650212# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X17 esd_6/in a_506614_647168# vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X18 vssa1 a_479772_646886# a_479772_646886# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=200000u M=8
+X19 io_analog[4] vssa1 vssa1 vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X20 a_464764_648054# a_466908_648062# vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X21 a_500126_647170# a_498928_647174# vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X22 a_479772_646886# esd_2/in a_479864_646886# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X23 esd_6/in vccd1 vccd1 vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X24 vccd1 vccd1 io_analog[6] vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X25 a_498236_647184# VCO_Flat_0/Buff_VCO_0/IN vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X26 esd_5/in vssa1 vssa1 vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X27 a_506614_647168# a_505416_647172# vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X28 esd_0/in a_500126_647170# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X29 vssa1 a_498928_647174# a_500126_647170# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X30 io_analog[7] vccd1 vccd1 vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X31 vssa1 vssa1 esd_6/in vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X32 a_487730_650240# esd_1/in vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X33 vssa1 vssa1 esd_3/in vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X34 esd_6/in a_506614_647168# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X35 vssa1 VCO_Flat_0/Buff_VCO_3/IN a_468592_648062# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X36 io_analog[5] vccd1 vccd1 vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X37 vccd1 a_479864_646886# a_481744_650256# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X38 esd_3/in a_457934_648038# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X39 vssa1 a_479772_646886# a_490782_644900# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X40 esd_4/in vccd1 vccd1 vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X41 vssa1 vssa1 io_analog[6] vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X42 vccd1 a_479864_646886# a_484700_650240# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X43 vccd1 a_473374_648060# a_471230_648050# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X44 vccd1 a_504724_647182# a_505416_647172# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X45 vssa1 a_466908_648062# a_464764_648054# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X46 a_475058_648060# VCO_Flat_0/Buff_VCO_2/IN vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X47 vccd1 esd_1/in a_490818_650238# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X48 VCO_Flat_0/Buff_VCO_0/IN VCO_Flat_0/Buff_VCO_3/IN a_493974_650212# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X49 vccd1 vccd1 esd_0/in vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X50 VCO_Flat_0/Buff_VCO_3/IN VCO_Flat_0/Buff_VCO_1/IN a_484700_650240# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X51 vssa1 a_483446_644892# a_487694_644902# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X52 VCO_Flat_0/Buff_VCO_3/IN VCO_Flat_0/Buff_VCO_4/IN a_484664_644902# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X53 esd_5/in vccd1 vccd1 vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X54 vssa1 vssa1 esd_0/in vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X55 io_analog[2] vssa1 vssa1 vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X56 vccd1 a_479864_646886# a_493974_650212# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X57 io_analog[2] vccd1 vccd1 vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X58 vccd1 a_457934_648038# esd_3/in vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X59 vccd1 a_461762_648050# a_460078_648050# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X60 vssa1 a_479772_646886# a_484664_644902# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X61 a_490782_644900# a_483446_644892# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X62 vccd1 vccd1 io_analog[1] vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X63 vccd1 esd_1/in a_484700_650240# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X64 a_490818_650238# VCO_Flat_0/Buff_VCO_4/IN VCO_Flat_0/Buff_VCO_1/IN vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X65 esd_4/in io_analog[4] vssa1 sky130_fd_pr__res_high_po w=2.85e+06u l=1.3e+06u
+X66 a_481744_650256# VCO_Flat_0/Buff_VCO_2/IN VCO_Flat_0/Buff_VCO_4/IN vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X67 esd_4/in a_464764_648054# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X68 vccd1 vccd1 io_analog[3] vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X69 a_490782_644900# VCO_Flat_0/Buff_VCO_2/IN VCO_Flat_0/Buff_VCO_1/IN vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X70 io_analog[1] vssa1 vssa1 vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X71 a_498236_647184# VCO_Flat_0/Buff_VCO_0/IN vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X72 a_481708_644918# VCO_Flat_0/Buff_VCO_0/IN VCO_Flat_0/Buff_VCO_4/IN vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X73 a_473374_648060# a_475058_648060# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X74 vssa1 vssa1 io_analog[3] vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X75 a_490818_650238# a_479864_646886# vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X76 esd_1/in vccd1 vccd1 vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X77 a_498928_647174# a_498236_647184# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X78 a_506614_647168# a_505416_647172# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X79 a_481744_650256# esd_1/in vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X80 a_481708_644918# a_479772_646886# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X81 a_505416_647172# a_504724_647182# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X82 a_466908_648062# a_468592_648062# vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X83 esd_2/in io_analog[2] vssa1 sky130_fd_pr__res_high_po w=2.85e+06u l=1.3e+06u
+X84 esd_4/in a_464764_648054# vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X85 a_493938_644874# a_483446_644892# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X86 vccd1 VCO_Flat_0/Buff_VCO_4/IN a_461762_648050# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X87 vssa1 a_460078_648050# a_457934_648038# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X88 esd_3/in io_analog[3] vssa1 sky130_fd_pr__res_high_po w=2.85e+06u l=1.3e+06u
+X89 vssa1 vssa1 esd_2/in vssa1 sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X90 vccd1 vccd1 esd_2/in vccd1 sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u M=20
+X91 VCO_Flat_0/Buff_VCO_3/IN VCO_Flat_0/Buff_VCO_1/IN vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+X92 esd_0/in io_analog[6] vssa1 sky130_fd_pr__res_high_po w=2.85e+06u l=1.3e+06u
+X93 vccd1 a_479864_646886# a_479864_646886# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=200000u M=8
+X94 a_487694_644902# a_479772_646886# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X95 a_475058_648060# VCO_Flat_0/Buff_VCO_2/IN vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X96 esd_1/in io_analog[1] vssa1 sky130_fd_pr__res_high_po w=2.85e+06u l=1.3e+06u
+X97 a_504724_647182# VCO_Flat_0/Buff_VCO_1/IN vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X98 vccd1 a_479864_646886# a_487730_650240# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X99 a_493938_644874# VCO_Flat_0/Buff_VCO_1/IN VCO_Flat_0/Buff_VCO_0/IN vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X100 vssa1 a_483446_644892# a_484664_644902# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X101 a_460078_648050# a_461762_648050# vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X102 vccd1 VCO_Flat_0/Buff_VCO_3/IN a_468592_648062# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X103 vssa1 a_473374_648060# a_471230_648050# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X104 esd_6/in io_analog[7] vssa1 sky130_fd_pr__res_high_po w=2.85e+06u l=1.3e+06u
+X105 vccd1 a_460078_648050# a_457934_648038# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X106 vssa1 VCO_Flat_0/Buff_VCO_4/IN a_461762_648050# vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X107 VCO_Flat_0/Buff_VCO_2/IN VCO_Flat_0/Buff_VCO_0/IN vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+X108 VCO_Flat_0/Buff_VCO_2/IN VCO_Flat_0/Buff_VCO_0/IN a_487730_650240# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X109 VCO_Flat_0/Buff_VCO_4/IN VCO_Flat_0/Buff_VCO_2/IN vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+X110 VCO_Flat_0/Buff_VCO_0/IN VCO_Flat_0/Buff_VCO_3/IN vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+X111 esd_5/in io_analog[5] vssa1 sky130_fd_pr__res_high_po w=2.85e+06u l=1.3e+06u
+X112 a_483446_644892# esd_1/in vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=6e+06u l=150000u
+X113 vccd1 vssa1 a_483446_644892# vccd1 sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+07u l=150000u M=2
+X114 VCO_Flat_0/Buff_VCO_1/IN VCO_Flat_0/Buff_VCO_4/IN vssa1 vssa1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+C0 vccd1 a_468592_648062# 9.21fF
+C1 a_479864_646886# VCO_Flat_0/Buff_VCO_4/IN 0.10fF
+C2 vccd1 io_analog[6] 30.67fF
+C3 vccd1 a_481744_650256# 34.72fF
+C4 vccd1 a_460078_648050# 17.69fF
+C5 VCO_Flat_0/Buff_VCO_4/IN a_468592_648062# 0.61fF
+C6 vccd1 a_487730_650240# 34.66fF
+C7 vccd1 a_500126_647170# 27.24fF
+C8 vccd1 io_analog[3] 26.68fF
+C9 esd_0/in io_analog[6] 0.50fF
+C10 vccd1 io_analog[4] 30.64fF
+C11 VCO_Flat_0/Buff_VCO_4/IN a_481744_650256# 6.48fF
+C12 a_504724_647182# vccd1 9.23fF
+C13 VCO_Flat_0/Buff_VCO_0/IN esd_1/in 0.18fF
+C14 a_481708_644918# VCO_Flat_0/Buff_VCO_4/IN 6.58fF
+C15 a_504724_647182# a_505416_647172# 1.04fF
+C16 esd_0/in a_500126_647170# 2.28fF
+C17 a_479864_646886# a_479772_646886# 13.59fF
+C18 esd_4/in io_analog[4] 0.50fF
+C19 esd_5/in io_analog[5] 0.50fF
+C20 a_479864_646886# a_490818_650238# 0.02fF
+C21 a_479864_646886# a_484700_650240# 0.02fF
+C22 a_493938_644874# a_490782_644900# 0.20fF
+C23 vccd1 esd_2/in 56.36fF
+C24 a_481744_650256# VCO_Flat_0/Buff_VCO_2/IN 0.16fF
+C25 vccd1 a_506614_647168# 27.23fF
+C26 VCO_Flat_0/Buff_VCO_2/IN a_487730_650240# 6.48fF
+C27 vccd1 esd_1/in 36.97fF
+C28 a_505416_647172# a_506614_647168# 0.82fF
+C29 a_481708_644918# a_483446_644892# 0.45fF
+C30 esd_2/in esd_0/in 0.84fF
+C31 a_481708_644918# a_479772_646886# 0.51fF
+C32 VCO_Flat_0/Buff_VCO_4/IN esd_2/in 0.20fF
+C33 vccd1 a_471230_648050# 27.24fF
+C34 a_490782_644900# VCO_Flat_0/Buff_VCO_2/IN 0.02fF
+C35 esd_0/in esd_1/in 0.74fF
+C36 vccd1 a_498928_647174# 17.68fF
+C37 VCO_Flat_0/Buff_VCO_3/IN a_484664_644902# 6.59fF
+C38 a_479864_646886# a_493974_650212# 0.02fF
+C39 a_490782_644900# a_483446_644892# 0.45fF
+C40 a_504724_647182# VCO_Flat_0/Buff_VCO_1/IN 0.40fF
+C41 a_490782_644900# a_479772_646886# 0.51fF
+C42 VCO_Flat_0/Buff_VCO_4/IN a_471230_648050# 1.15fF
+C43 a_498928_647174# a_498236_647184# 1.00fF
+C44 esd_2/in VCO_Flat_0/Buff_VCO_2/IN 0.45fF
+C45 a_490782_644900# VCO_Flat_0/Buff_VCO_1/IN 6.60fF
+C46 a_466908_648062# a_468592_648062# 1.00fF
+C47 esd_2/in a_479772_646886# 0.28fF
+C48 vccd1 a_457934_648038# 27.23fF
+C49 a_490782_644900# a_487694_644902# 0.25fF
+C50 VCO_Flat_0/Buff_VCO_0/IN VCO_Flat_0/Buff_VCO_3/IN 1.72fF
+C51 a_461762_648050# a_460078_648050# 1.00fF
+C52 vccd1 esd_6/in 52.65fF
+C53 a_483446_644892# esd_1/in 0.17fF
+C54 VCO_Flat_0/Buff_VCO_1/IN esd_1/in 0.44fF
+C55 esd_3/in io_analog[3] 0.50fF
+C56 a_464764_648054# vccd1 27.24fF
+C57 vccd1 a_475058_648060# 9.21fF
+C58 VCO_Flat_0/Buff_VCO_4/IN a_484664_644902# 0.02fF
+C59 esd_2/in io_analog[2] 0.50fF
+C60 io_analog[7] esd_6/in 0.50fF
+C61 vccd1 VCO_Flat_0/Buff_VCO_3/IN 1.23fF
+C62 a_479864_646886# a_481744_650256# 0.07fF
+C63 esd_1/in io_analog[1] 0.50fF
+C64 VCO_Flat_0/Buff_VCO_0/IN vccd1 0.14fF
+C65 a_479864_646886# a_487730_650240# 0.02fF
+C66 a_464764_648054# VCO_Flat_0/Buff_VCO_4/IN 1.51fF
+C67 VCO_Flat_0/Buff_VCO_4/IN a_475058_648060# 0.47fF
+C68 a_471230_648050# esd_5/in 2.28fF
+C69 a_464764_648054# esd_4/in 2.28fF
+C70 esd_1/in a_493974_650212# 0.01fF
+C71 VCO_Flat_0/Buff_VCO_0/IN a_498236_647184# 0.40fF
+C72 VCO_Flat_0/Buff_VCO_4/IN VCO_Flat_0/Buff_VCO_3/IN 5.50fF
+C73 a_493938_644874# VCO_Flat_0/Buff_VCO_0/IN 6.81fF
+C74 a_471230_648050# a_473374_648060# 0.82fF
+C75 VCO_Flat_0/Buff_VCO_0/IN VCO_Flat_0/Buff_VCO_4/IN 4.75fF
+C76 a_483446_644892# a_484664_644902# 0.45fF
+C77 a_484664_644902# a_479772_646886# 0.51fF
+C78 a_475058_648060# VCO_Flat_0/Buff_VCO_2/IN 0.40fF
+C79 a_479864_646886# esd_2/in 0.53fF
+C80 VCO_Flat_0/Buff_VCO_3/IN VCO_Flat_0/Buff_VCO_2/IN 0.72fF
+C81 vccd1 a_505416_647172# 17.69fF
+C82 a_487694_644902# a_484664_644902# 0.31fF
+C83 VCO_Flat_0/Buff_VCO_0/IN VCO_Flat_0/Buff_VCO_2/IN 2.96fF
+C84 vccd1 a_498236_647184# 9.22fF
+C85 a_479864_646886# esd_1/in 1.17fF
+C86 vccd1 esd_0/in 52.65fF
+C87 vccd1 VCO_Flat_0/Buff_VCO_4/IN 1.58fF
+C88 VCO_Flat_0/Buff_VCO_0/IN a_483446_644892# 0.06fF
+C89 VCO_Flat_0/Buff_VCO_3/IN a_484700_650240# 6.48fF
+C90 VCO_Flat_0/Buff_VCO_3/IN VCO_Flat_0/Buff_VCO_1/IN 0.74fF
+C91 vccd1 esd_4/in 52.65fF
+C92 VCO_Flat_0/Buff_VCO_0/IN VCO_Flat_0/Buff_VCO_1/IN 1.94fF
+C93 vccd1 io_analog[7] 26.76fF
+C94 VCO_Flat_0/Buff_VCO_3/IN a_487694_644902# 0.02fF
+C95 esd_3/in a_457934_648038# 2.28fF
+C96 esd_4/in VCO_Flat_0/Buff_VCO_4/IN 1.58fF
+C97 vccd1 VCO_Flat_0/Buff_VCO_2/IN 0.06fF
+C98 esd_5/in VCO_Flat_0/Buff_VCO_3/IN 0.02fF
+C99 a_475058_648060# a_473374_648060# 1.00fF
+C100 vccd1 a_483446_644892# 5.82fF
+C101 a_464764_648054# a_466908_648062# 0.82fF
+C102 vccd1 a_490818_650238# 34.67fF
+C103 vccd1 a_484700_650240# 34.66fF
+C104 VCO_Flat_0/Buff_VCO_3/IN a_493974_650212# 0.17fF
+C105 VCO_Flat_0/Buff_VCO_4/IN VCO_Flat_0/Buff_VCO_2/IN 3.68fF
+C106 vccd1 VCO_Flat_0/Buff_VCO_1/IN 0.33fF
+C107 a_498928_647174# a_500126_647170# 0.82fF
+C108 VCO_Flat_0/Buff_VCO_0/IN a_493974_650212# 6.48fF
+C109 a_493938_644874# a_483446_644892# 0.77fF
+C110 a_493938_644874# a_479772_646886# 0.45fF
+C111 esd_0/in VCO_Flat_0/Buff_VCO_1/IN 0.23fF
+C112 a_493938_644874# VCO_Flat_0/Buff_VCO_1/IN 0.02fF
+C113 esd_2/in esd_1/in 1.17fF
+C114 VCO_Flat_0/Buff_VCO_4/IN a_490818_650238# 0.17fF
+C115 VCO_Flat_0/Buff_VCO_4/IN VCO_Flat_0/Buff_VCO_1/IN 1.94fF
+C116 a_457934_648038# a_460078_648050# 0.82fF
+C117 vccd1 esd_5/in 53.10fF
+C118 vccd1 io_analog[1] 26.75fF
+C119 vccd1 io_analog[2] 26.70fF
+C120 vccd1 a_473374_648060# 17.71fF
+C121 a_481708_644918# a_484664_644902# 0.84fF
+C122 VCO_Flat_0/Buff_VCO_2/IN a_479772_646886# 0.10fF
+C123 a_479864_646886# VCO_Flat_0/Buff_VCO_3/IN 0.08fF
+C124 vccd1 a_493974_650212# 34.68fF
+C125 VCO_Flat_0/Buff_VCO_4/IN esd_5/in 1.10fF
+C126 vccd1 a_461762_648050# 9.21fF
+C127 VCO_Flat_0/Buff_VCO_2/IN VCO_Flat_0/Buff_VCO_1/IN 1.42fF
+C128 vccd1 a_466908_648062# 17.70fF
+C129 a_483446_644892# a_479772_646886# 4.73fF
+C130 VCO_Flat_0/Buff_VCO_3/IN a_468592_648062# 0.40fF
+C131 VCO_Flat_0/Buff_VCO_4/IN a_473374_648060# 0.76fF
+C132 vccd1 io_analog[5] 31.10fF
+C133 vccd1 esd_3/in 52.65fF
+C134 a_483446_644892# VCO_Flat_0/Buff_VCO_1/IN 0.06fF
+C135 VCO_Flat_0/Buff_VCO_2/IN a_487694_644902# 6.58fF
+C136 VCO_Flat_0/Buff_VCO_4/IN a_461762_648050# 0.40fF
+C137 a_490818_650238# VCO_Flat_0/Buff_VCO_1/IN 6.49fF
+C138 VCO_Flat_0/Buff_VCO_1/IN a_484700_650240# 0.16fF
+C139 a_466908_648062# VCO_Flat_0/Buff_VCO_4/IN 0.99fF
+C140 esd_2/in esd_6/in 0.85fF
+C141 a_483446_644892# a_487694_644902# 0.45fF
+C142 a_487694_644902# a_479772_646886# 0.51fF
+C143 VCO_Flat_0/Buff_VCO_0/IN a_481708_644918# 0.02fF
+C144 VCO_Flat_0/Buff_VCO_0/IN a_487730_650240# 0.17fF
+C145 esd_6/in a_506614_647168# 1.73fF
+C146 vccd1 a_479864_646886# 23.05fF
+C147 esd_6/in esd_1/in 0.74fF
+C148 io_in_3v3[0] vssa1 0.61fF
+C149 io_oeb[26] vssa1 0.61fF
+C150 io_in[0] vssa1 0.61fF
+C151 io_out[26] vssa1 0.61fF
+C152 io_out[0] vssa1 0.61fF
+C153 io_in[26] vssa1 0.61fF
+C154 io_oeb[0] vssa1 0.61fF
+C155 io_in_3v3[26] vssa1 0.61fF
+C156 io_in_3v3[1] vssa1 0.61fF
+C157 io_oeb[25] vssa1 0.61fF
+C158 io_in[1] vssa1 0.61fF
+C159 io_out[25] vssa1 0.61fF
+C160 io_out[1] vssa1 0.61fF
+C161 io_in[25] vssa1 0.61fF
+C162 io_oeb[1] vssa1 0.61fF
+C163 io_in_3v3[25] vssa1 0.61fF
+C164 io_in_3v3[2] vssa1 0.61fF
+C165 io_oeb[24] vssa1 0.61fF
+C166 io_in[2] vssa1 0.61fF
+C167 io_out[24] vssa1 0.61fF
+C168 io_out[2] vssa1 0.61fF
+C169 io_in[24] vssa1 0.61fF
+C170 io_oeb[2] vssa1 0.61fF
+C171 io_in_3v3[24] vssa1 0.61fF
+C172 io_in_3v3[3] vssa1 0.61fF
+C173 gpio_noesd[17] vssa1 0.61fF
+C174 io_in[3] vssa1 0.61fF
+C175 gpio_analog[17] vssa1 0.61fF
+C176 io_out[3] vssa1 0.61fF
+C177 io_oeb[3] vssa1 0.61fF
+C178 io_in_3v3[4] vssa1 0.61fF
+C179 io_in[4] vssa1 0.61fF
+C180 io_out[4] vssa1 0.61fF
+C181 io_oeb[4] vssa1 0.61fF
+C182 io_oeb[23] vssa1 0.61fF
+C183 io_out[23] vssa1 0.61fF
+C184 io_in[23] vssa1 0.61fF
+C185 io_in_3v3[23] vssa1 0.61fF
+C186 gpio_noesd[16] vssa1 0.61fF
+C187 gpio_analog[16] vssa1 0.61fF
+C188 io_in_3v3[5] vssa1 0.61fF
+C189 io_in[5] vssa1 0.61fF
+C190 io_out[5] vssa1 0.61fF
+C191 io_oeb[5] vssa1 0.61fF
+C192 io_oeb[22] vssa1 0.61fF
+C193 io_out[22] vssa1 0.61fF
+C194 io_in[22] vssa1 0.61fF
+C195 io_in_3v3[22] vssa1 0.61fF
+C196 gpio_noesd[15] vssa1 0.61fF
+C197 gpio_analog[15] vssa1 0.61fF
+C198 io_in_3v3[6] vssa1 0.61fF
+C199 io_in[6] vssa1 0.61fF
+C200 io_out[6] vssa1 0.61fF
+C201 io_oeb[6] vssa1 0.61fF
+C202 io_oeb[21] vssa1 0.61fF
+C203 io_out[21] vssa1 0.61fF
+C204 io_in[21] vssa1 0.61fF
+C205 io_in_3v3[21] vssa1 0.61fF
+C206 gpio_noesd[14] vssa1 0.61fF
+C207 gpio_analog[14] vssa1 0.61fF
+C208 vssd2 vssa1 13.04fF
+C209 vssd1 vssa1 13.04fF
+C210 vdda2 vssa1 13.04fF
+C211 vdda1 vssa1 26.08fF
+C212 io_oeb[20] vssa1 0.61fF
+C213 io_out[20] vssa1 0.61fF
+C214 io_in[20] vssa1 0.61fF
+C215 io_in_3v3[20] vssa1 0.61fF
+C216 gpio_noesd[13] vssa1 0.61fF
+C217 gpio_analog[13] vssa1 0.61fF
+C218 gpio_analog[0] vssa1 0.61fF
+C219 gpio_noesd[0] vssa1 0.61fF
+C220 io_in_3v3[7] vssa1 0.61fF
+C221 io_in[7] vssa1 0.61fF
+C222 io_out[7] vssa1 0.61fF
+C223 io_oeb[7] vssa1 0.61fF
+C224 io_oeb[19] vssa1 0.61fF
+C225 io_out[19] vssa1 0.61fF
+C226 io_in[19] vssa1 0.61fF
+C227 io_in_3v3[19] vssa1 0.61fF
+C228 gpio_noesd[12] vssa1 0.61fF
+C229 gpio_analog[12] vssa1 0.61fF
+C230 gpio_analog[1] vssa1 0.61fF
+C231 gpio_noesd[1] vssa1 0.61fF
+C232 io_in_3v3[8] vssa1 0.61fF
+C233 io_in[8] vssa1 0.61fF
+C234 io_out[8] vssa1 0.61fF
+C235 io_oeb[8] vssa1 0.61fF
+C236 io_oeb[18] vssa1 0.61fF
+C237 io_out[18] vssa1 0.61fF
+C238 io_in[18] vssa1 0.61fF
+C239 io_in_3v3[18] vssa1 0.61fF
+C240 gpio_noesd[11] vssa1 0.61fF
+C241 gpio_analog[11] vssa1 0.61fF
+C242 gpio_analog[2] vssa1 0.61fF
+C243 gpio_noesd[2] vssa1 0.61fF
+C244 io_in_3v3[9] vssa1 0.61fF
+C245 io_in[9] vssa1 0.61fF
+C246 io_out[9] vssa1 0.61fF
+C247 io_oeb[9] vssa1 0.61fF
+C248 io_oeb[17] vssa1 0.61fF
+C249 io_out[17] vssa1 0.61fF
+C250 io_in[17] vssa1 0.61fF
+C251 io_in_3v3[17] vssa1 0.61fF
+C252 gpio_noesd[10] vssa1 0.61fF
+C253 gpio_analog[10] vssa1 0.61fF
+C254 gpio_analog[3] vssa1 0.61fF
+C255 gpio_noesd[3] vssa1 0.61fF
+C256 io_in_3v3[10] vssa1 0.61fF
+C257 io_in[10] vssa1 0.61fF
+C258 io_out[10] vssa1 0.61fF
+C259 io_oeb[10] vssa1 0.61fF
+C260 io_oeb[16] vssa1 0.61fF
+C261 io_out[16] vssa1 0.61fF
+C262 io_in[16] vssa1 0.61fF
+C263 io_in_3v3[16] vssa1 0.61fF
+C264 gpio_noesd[9] vssa1 0.61fF
+C265 gpio_analog[9] vssa1 0.61fF
+C266 gpio_analog[4] vssa1 0.61fF
+C267 gpio_noesd[4] vssa1 0.61fF
+C268 io_in_3v3[11] vssa1 0.61fF
+C269 io_in[11] vssa1 0.61fF
+C270 io_out[11] vssa1 0.61fF
+C271 io_oeb[11] vssa1 0.61fF
+C272 io_oeb[15] vssa1 0.61fF
+C273 io_out[15] vssa1 0.61fF
+C274 io_in[15] vssa1 0.61fF
+C275 io_in_3v3[15] vssa1 0.61fF
+C276 gpio_noesd[8] vssa1 0.61fF
+C277 gpio_analog[8] vssa1 0.61fF
+C278 gpio_analog[5] vssa1 0.61fF
+C279 gpio_noesd[5] vssa1 0.61fF
+C280 io_in_3v3[12] vssa1 0.61fF
+C281 io_in[12] vssa1 0.61fF
+C282 io_out[12] vssa1 0.61fF
+C283 io_oeb[12] vssa1 0.61fF
+C284 io_oeb[14] vssa1 0.61fF
+C285 io_out[14] vssa1 0.61fF
+C286 io_in[14] vssa1 0.61fF
+C287 io_in_3v3[14] vssa1 0.61fF
+C288 gpio_noesd[7] vssa1 0.61fF
+C289 gpio_analog[7] vssa1 0.61fF
+C290 vssa2 vssa1 13.04fF
+C291 gpio_analog[6] vssa1 0.61fF
+C292 gpio_noesd[6] vssa1 0.61fF
+C293 io_in_3v3[13] vssa1 0.61fF
+C294 io_in[13] vssa1 0.61fF
+C295 io_out[13] vssa1 0.61fF
+C296 io_oeb[13] vssa1 0.61fF
+C297 vccd2 vssa1 13.04fF
+C298 io_analog[0] vssa1 6.83fF
+C299 io_analog[10] vssa1 6.83fF
+C300 io_analog[8] vssa1 6.83fF
+C301 io_analog[9] vssa1 6.83fF
+C302 user_irq[2] vssa1 0.63fF
+C303 user_irq[1] vssa1 0.63fF
+C304 user_irq[0] vssa1 0.63fF
+C305 user_clock2 vssa1 0.63fF
+C306 la_oenb[127] vssa1 0.63fF
+C307 la_data_out[127] vssa1 0.63fF
+C308 la_data_in[127] vssa1 0.63fF
+C309 la_oenb[126] vssa1 0.63fF
+C310 la_data_out[126] vssa1 0.63fF
+C311 la_data_in[126] vssa1 0.63fF
+C312 la_oenb[125] vssa1 0.63fF
+C313 la_data_out[125] vssa1 0.63fF
+C314 la_data_in[125] vssa1 0.63fF
+C315 la_oenb[124] vssa1 0.63fF
+C316 la_data_out[124] vssa1 0.63fF
+C317 la_data_in[124] vssa1 0.63fF
+C318 la_oenb[123] vssa1 0.63fF
+C319 la_data_out[123] vssa1 0.63fF
+C320 la_data_in[123] vssa1 0.63fF
+C321 la_oenb[122] vssa1 0.63fF
+C322 la_data_out[122] vssa1 0.63fF
+C323 la_data_in[122] vssa1 0.63fF
+C324 la_oenb[121] vssa1 0.63fF
+C325 la_data_out[121] vssa1 0.63fF
+C326 la_data_in[121] vssa1 0.63fF
+C327 la_oenb[120] vssa1 0.63fF
+C328 la_data_out[120] vssa1 0.63fF
+C329 la_data_in[120] vssa1 0.63fF
+C330 la_oenb[119] vssa1 0.63fF
+C331 la_data_out[119] vssa1 0.63fF
+C332 la_data_in[119] vssa1 0.63fF
+C333 la_oenb[118] vssa1 0.63fF
+C334 la_data_out[118] vssa1 0.63fF
+C335 la_data_in[118] vssa1 0.63fF
+C336 la_oenb[117] vssa1 0.63fF
+C337 la_data_out[117] vssa1 0.63fF
+C338 la_data_in[117] vssa1 0.63fF
+C339 la_oenb[116] vssa1 0.63fF
+C340 la_data_out[116] vssa1 0.63fF
+C341 la_data_in[116] vssa1 0.63fF
+C342 la_oenb[115] vssa1 0.63fF
+C343 la_data_out[115] vssa1 0.63fF
+C344 la_data_in[115] vssa1 0.63fF
+C345 la_oenb[114] vssa1 0.63fF
+C346 la_data_out[114] vssa1 0.63fF
+C347 la_data_in[114] vssa1 0.63fF
+C348 la_oenb[113] vssa1 0.63fF
+C349 la_data_out[113] vssa1 0.63fF
+C350 la_data_in[113] vssa1 0.63fF
+C351 la_oenb[112] vssa1 0.63fF
+C352 la_data_out[112] vssa1 0.63fF
+C353 la_data_in[112] vssa1 0.63fF
+C354 la_oenb[111] vssa1 0.63fF
+C355 la_data_out[111] vssa1 0.63fF
+C356 la_data_in[111] vssa1 0.63fF
+C357 la_oenb[110] vssa1 0.63fF
+C358 la_data_out[110] vssa1 0.63fF
+C359 la_data_in[110] vssa1 0.63fF
+C360 la_oenb[109] vssa1 0.63fF
+C361 la_data_out[109] vssa1 0.63fF
+C362 la_data_in[109] vssa1 0.63fF
+C363 la_oenb[108] vssa1 0.63fF
+C364 la_data_out[108] vssa1 0.63fF
+C365 la_data_in[108] vssa1 0.63fF
+C366 la_oenb[107] vssa1 0.63fF
+C367 la_data_out[107] vssa1 0.63fF
+C368 la_data_in[107] vssa1 0.63fF
+C369 la_oenb[106] vssa1 0.63fF
+C370 la_data_out[106] vssa1 0.63fF
+C371 la_data_in[106] vssa1 0.63fF
+C372 la_oenb[105] vssa1 0.63fF
+C373 la_data_out[105] vssa1 0.63fF
+C374 la_data_in[105] vssa1 0.63fF
+C375 la_oenb[104] vssa1 0.63fF
+C376 la_data_out[104] vssa1 0.63fF
+C377 la_data_in[104] vssa1 0.63fF
+C378 la_oenb[103] vssa1 0.63fF
+C379 la_data_out[103] vssa1 0.63fF
+C380 la_data_in[103] vssa1 0.63fF
+C381 la_oenb[102] vssa1 0.63fF
+C382 la_data_out[102] vssa1 0.63fF
+C383 la_data_in[102] vssa1 0.63fF
+C384 la_oenb[101] vssa1 0.63fF
+C385 la_data_out[101] vssa1 0.63fF
+C386 la_data_in[101] vssa1 0.63fF
+C387 la_oenb[100] vssa1 0.63fF
+C388 la_data_out[100] vssa1 0.63fF
+C389 la_data_in[100] vssa1 0.63fF
+C390 la_oenb[99] vssa1 0.63fF
+C391 la_data_out[99] vssa1 0.63fF
+C392 la_data_in[99] vssa1 0.63fF
+C393 la_oenb[98] vssa1 0.63fF
+C394 la_data_out[98] vssa1 0.63fF
+C395 la_data_in[98] vssa1 0.63fF
+C396 la_oenb[97] vssa1 0.63fF
+C397 la_data_out[97] vssa1 0.63fF
+C398 la_data_in[97] vssa1 0.63fF
+C399 la_oenb[96] vssa1 0.63fF
+C400 la_data_out[96] vssa1 0.63fF
+C401 la_data_in[96] vssa1 0.63fF
+C402 la_oenb[95] vssa1 0.63fF
+C403 la_data_out[95] vssa1 0.63fF
+C404 la_data_in[95] vssa1 0.63fF
+C405 la_oenb[94] vssa1 0.63fF
+C406 la_data_out[94] vssa1 0.63fF
+C407 la_data_in[94] vssa1 0.63fF
+C408 la_oenb[93] vssa1 0.63fF
+C409 la_data_out[93] vssa1 0.63fF
+C410 la_data_in[93] vssa1 0.63fF
+C411 la_oenb[92] vssa1 0.63fF
+C412 la_data_out[92] vssa1 0.63fF
+C413 la_data_in[92] vssa1 0.63fF
+C414 la_oenb[91] vssa1 0.63fF
+C415 la_data_out[91] vssa1 0.63fF
+C416 la_data_in[91] vssa1 0.63fF
+C417 la_oenb[90] vssa1 0.63fF
+C418 la_data_out[90] vssa1 0.63fF
+C419 la_data_in[90] vssa1 0.63fF
+C420 la_oenb[89] vssa1 0.63fF
+C421 la_data_out[89] vssa1 0.63fF
+C422 la_data_in[89] vssa1 0.63fF
+C423 la_oenb[88] vssa1 0.63fF
+C424 la_data_out[88] vssa1 0.63fF
+C425 la_data_in[88] vssa1 0.63fF
+C426 la_oenb[87] vssa1 0.63fF
+C427 la_data_out[87] vssa1 0.63fF
+C428 la_data_in[87] vssa1 0.63fF
+C429 la_oenb[86] vssa1 0.63fF
+C430 la_data_out[86] vssa1 0.63fF
+C431 la_data_in[86] vssa1 0.63fF
+C432 la_oenb[85] vssa1 0.63fF
+C433 la_data_out[85] vssa1 0.63fF
+C434 la_data_in[85] vssa1 0.63fF
+C435 la_oenb[84] vssa1 0.63fF
+C436 la_data_out[84] vssa1 0.63fF
+C437 la_data_in[84] vssa1 0.63fF
+C438 la_oenb[83] vssa1 0.63fF
+C439 la_data_out[83] vssa1 0.63fF
+C440 la_data_in[83] vssa1 0.63fF
+C441 la_oenb[82] vssa1 0.63fF
+C442 la_data_out[82] vssa1 0.63fF
+C443 la_data_in[82] vssa1 0.63fF
+C444 la_oenb[81] vssa1 0.63fF
+C445 la_data_out[81] vssa1 0.63fF
+C446 la_data_in[81] vssa1 0.63fF
+C447 la_oenb[80] vssa1 0.63fF
+C448 la_data_out[80] vssa1 0.63fF
+C449 la_data_in[80] vssa1 0.63fF
+C450 la_oenb[79] vssa1 0.63fF
+C451 la_data_out[79] vssa1 0.63fF
+C452 la_data_in[79] vssa1 0.63fF
+C453 la_oenb[78] vssa1 0.63fF
+C454 la_data_out[78] vssa1 0.63fF
+C455 la_data_in[78] vssa1 0.63fF
+C456 la_oenb[77] vssa1 0.63fF
+C457 la_data_out[77] vssa1 0.63fF
+C458 la_data_in[77] vssa1 0.63fF
+C459 la_oenb[76] vssa1 0.63fF
+C460 la_data_out[76] vssa1 0.63fF
+C461 la_data_in[76] vssa1 0.63fF
+C462 la_oenb[75] vssa1 0.63fF
+C463 la_data_out[75] vssa1 0.63fF
+C464 la_data_in[75] vssa1 0.63fF
+C465 la_oenb[74] vssa1 0.63fF
+C466 la_data_out[74] vssa1 0.63fF
+C467 la_data_in[74] vssa1 0.63fF
+C468 la_oenb[73] vssa1 0.63fF
+C469 la_data_out[73] vssa1 0.63fF
+C470 la_data_in[73] vssa1 0.63fF
+C471 la_oenb[72] vssa1 0.63fF
+C472 la_data_out[72] vssa1 0.63fF
+C473 la_data_in[72] vssa1 0.63fF
+C474 la_oenb[71] vssa1 0.63fF
+C475 la_data_out[71] vssa1 0.63fF
+C476 la_data_in[71] vssa1 0.63fF
+C477 la_oenb[70] vssa1 0.63fF
+C478 la_data_out[70] vssa1 0.63fF
+C479 la_data_in[70] vssa1 0.63fF
+C480 la_oenb[69] vssa1 0.63fF
+C481 la_data_out[69] vssa1 0.63fF
+C482 la_data_in[69] vssa1 0.63fF
+C483 la_oenb[68] vssa1 0.63fF
+C484 la_data_out[68] vssa1 0.63fF
+C485 la_data_in[68] vssa1 0.63fF
+C486 la_oenb[67] vssa1 0.63fF
+C487 la_data_out[67] vssa1 0.63fF
+C488 la_data_in[67] vssa1 0.63fF
+C489 la_oenb[66] vssa1 0.63fF
+C490 la_data_out[66] vssa1 0.63fF
+C491 la_data_in[66] vssa1 0.63fF
+C492 la_oenb[65] vssa1 0.63fF
+C493 la_data_out[65] vssa1 0.63fF
+C494 la_data_in[65] vssa1 0.63fF
+C495 la_oenb[64] vssa1 0.63fF
+C496 la_data_out[64] vssa1 0.63fF
+C497 la_data_in[64] vssa1 0.63fF
+C498 la_oenb[63] vssa1 0.63fF
+C499 la_data_out[63] vssa1 0.63fF
+C500 la_data_in[63] vssa1 0.63fF
+C501 la_oenb[62] vssa1 0.63fF
+C502 la_data_out[62] vssa1 0.63fF
+C503 la_data_in[62] vssa1 0.63fF
+C504 la_oenb[61] vssa1 0.63fF
+C505 la_data_out[61] vssa1 0.63fF
+C506 la_data_in[61] vssa1 0.63fF
+C507 la_oenb[60] vssa1 0.63fF
+C508 la_data_out[60] vssa1 0.63fF
+C509 la_data_in[60] vssa1 0.63fF
+C510 la_oenb[59] vssa1 0.63fF
+C511 la_data_out[59] vssa1 0.63fF
+C512 la_data_in[59] vssa1 0.63fF
+C513 la_oenb[58] vssa1 0.63fF
+C514 la_data_out[58] vssa1 0.63fF
+C515 la_data_in[58] vssa1 0.63fF
+C516 la_oenb[57] vssa1 0.63fF
+C517 la_data_out[57] vssa1 0.63fF
+C518 la_data_in[57] vssa1 0.63fF
+C519 la_oenb[56] vssa1 0.63fF
+C520 la_data_out[56] vssa1 0.63fF
+C521 la_data_in[56] vssa1 0.63fF
+C522 la_oenb[55] vssa1 0.63fF
+C523 la_data_out[55] vssa1 0.63fF
+C524 la_data_in[55] vssa1 0.63fF
+C525 la_oenb[54] vssa1 0.63fF
+C526 la_data_out[54] vssa1 0.63fF
+C527 la_data_in[54] vssa1 0.63fF
+C528 la_oenb[53] vssa1 0.63fF
+C529 la_data_out[53] vssa1 0.63fF
+C530 la_data_in[53] vssa1 0.63fF
+C531 la_oenb[52] vssa1 0.63fF
+C532 la_data_out[52] vssa1 0.63fF
+C533 la_data_in[52] vssa1 0.63fF
+C534 la_oenb[51] vssa1 0.63fF
+C535 la_data_out[51] vssa1 0.63fF
+C536 la_data_in[51] vssa1 0.63fF
+C537 la_oenb[50] vssa1 0.63fF
+C538 la_data_out[50] vssa1 0.63fF
+C539 la_data_in[50] vssa1 0.63fF
+C540 la_oenb[49] vssa1 0.63fF
+C541 la_data_out[49] vssa1 0.63fF
+C542 la_data_in[49] vssa1 0.63fF
+C543 la_oenb[48] vssa1 0.63fF
+C544 la_data_out[48] vssa1 0.63fF
+C545 la_data_in[48] vssa1 0.63fF
+C546 la_oenb[47] vssa1 0.63fF
+C547 la_data_out[47] vssa1 0.63fF
+C548 la_data_in[47] vssa1 0.63fF
+C549 la_oenb[46] vssa1 0.63fF
+C550 la_data_out[46] vssa1 0.63fF
+C551 la_data_in[46] vssa1 0.63fF
+C552 la_oenb[45] vssa1 0.63fF
+C553 la_data_out[45] vssa1 0.63fF
+C554 la_data_in[45] vssa1 0.63fF
+C555 la_oenb[44] vssa1 0.63fF
+C556 la_data_out[44] vssa1 0.63fF
+C557 la_data_in[44] vssa1 0.63fF
+C558 la_oenb[43] vssa1 0.63fF
+C559 la_data_out[43] vssa1 0.63fF
+C560 la_data_in[43] vssa1 0.63fF
+C561 la_oenb[42] vssa1 0.63fF
+C562 la_data_out[42] vssa1 0.63fF
+C563 la_data_in[42] vssa1 0.63fF
+C564 la_oenb[41] vssa1 0.63fF
+C565 la_data_out[41] vssa1 0.63fF
+C566 la_data_in[41] vssa1 0.63fF
+C567 la_oenb[40] vssa1 0.63fF
+C568 la_data_out[40] vssa1 0.63fF
+C569 la_data_in[40] vssa1 0.63fF
+C570 la_oenb[39] vssa1 0.63fF
+C571 la_data_out[39] vssa1 0.63fF
+C572 la_data_in[39] vssa1 0.63fF
+C573 la_oenb[38] vssa1 0.63fF
+C574 la_data_out[38] vssa1 0.63fF
+C575 la_data_in[38] vssa1 0.63fF
+C576 la_oenb[37] vssa1 0.63fF
+C577 la_data_out[37] vssa1 0.63fF
+C578 la_data_in[37] vssa1 0.63fF
+C579 la_oenb[36] vssa1 0.63fF
+C580 la_data_out[36] vssa1 0.63fF
+C581 la_data_in[36] vssa1 0.63fF
+C582 la_oenb[35] vssa1 0.63fF
+C583 la_data_out[35] vssa1 0.63fF
+C584 la_data_in[35] vssa1 0.63fF
+C585 la_oenb[34] vssa1 0.63fF
+C586 la_data_out[34] vssa1 0.63fF
+C587 la_data_in[34] vssa1 0.63fF
+C588 la_oenb[33] vssa1 0.63fF
+C589 la_data_out[33] vssa1 0.63fF
+C590 la_data_in[33] vssa1 0.63fF
+C591 la_oenb[32] vssa1 0.63fF
+C592 la_data_out[32] vssa1 0.63fF
+C593 la_data_in[32] vssa1 0.63fF
+C594 la_oenb[31] vssa1 0.63fF
+C595 la_data_out[31] vssa1 0.63fF
+C596 la_data_in[31] vssa1 0.63fF
+C597 la_oenb[30] vssa1 0.63fF
+C598 la_data_out[30] vssa1 0.63fF
+C599 la_data_in[30] vssa1 0.63fF
+C600 la_oenb[29] vssa1 0.63fF
+C601 la_data_out[29] vssa1 0.63fF
+C602 la_data_in[29] vssa1 0.63fF
+C603 la_oenb[28] vssa1 0.63fF
+C604 la_data_out[28] vssa1 0.63fF
+C605 la_data_in[28] vssa1 0.63fF
+C606 la_oenb[27] vssa1 0.63fF
+C607 la_data_out[27] vssa1 0.63fF
+C608 la_data_in[27] vssa1 0.63fF
+C609 la_oenb[26] vssa1 0.63fF
+C610 la_data_out[26] vssa1 0.63fF
+C611 la_data_in[26] vssa1 0.63fF
+C612 la_oenb[25] vssa1 0.63fF
+C613 la_data_out[25] vssa1 0.63fF
+C614 la_data_in[25] vssa1 0.63fF
+C615 la_oenb[24] vssa1 0.63fF
+C616 la_data_out[24] vssa1 0.63fF
+C617 la_data_in[24] vssa1 0.63fF
+C618 la_oenb[23] vssa1 0.63fF
+C619 la_data_out[23] vssa1 0.63fF
+C620 la_data_in[23] vssa1 0.63fF
+C621 la_oenb[22] vssa1 0.63fF
+C622 la_data_out[22] vssa1 0.63fF
+C623 la_data_in[22] vssa1 0.63fF
+C624 la_oenb[21] vssa1 0.63fF
+C625 la_data_out[21] vssa1 0.63fF
+C626 la_data_in[21] vssa1 0.63fF
+C627 la_oenb[20] vssa1 0.63fF
+C628 la_data_out[20] vssa1 0.63fF
+C629 la_data_in[20] vssa1 0.63fF
+C630 la_oenb[19] vssa1 0.63fF
+C631 la_data_out[19] vssa1 0.63fF
+C632 la_data_in[19] vssa1 0.63fF
+C633 la_oenb[18] vssa1 0.63fF
+C634 la_data_out[18] vssa1 0.63fF
+C635 la_data_in[18] vssa1 0.63fF
+C636 la_oenb[17] vssa1 0.63fF
+C637 la_data_out[17] vssa1 0.63fF
+C638 la_data_in[17] vssa1 0.63fF
+C639 la_oenb[16] vssa1 0.63fF
+C640 la_data_out[16] vssa1 0.63fF
+C641 la_data_in[16] vssa1 0.63fF
+C642 la_oenb[15] vssa1 0.63fF
+C643 la_data_out[15] vssa1 0.63fF
+C644 la_data_in[15] vssa1 0.63fF
+C645 la_oenb[14] vssa1 0.63fF
+C646 la_data_out[14] vssa1 0.63fF
+C647 la_data_in[14] vssa1 0.63fF
+C648 la_oenb[13] vssa1 0.63fF
+C649 la_data_out[13] vssa1 0.63fF
+C650 la_data_in[13] vssa1 0.63fF
+C651 la_oenb[12] vssa1 0.63fF
+C652 la_data_out[12] vssa1 0.63fF
+C653 la_data_in[12] vssa1 0.63fF
+C654 la_oenb[11] vssa1 0.63fF
+C655 la_data_out[11] vssa1 0.63fF
+C656 la_data_in[11] vssa1 0.63fF
+C657 la_oenb[10] vssa1 0.63fF
+C658 la_data_out[10] vssa1 0.63fF
+C659 la_data_in[10] vssa1 0.63fF
+C660 la_oenb[9] vssa1 0.63fF
+C661 la_data_out[9] vssa1 0.63fF
+C662 la_data_in[9] vssa1 0.63fF
+C663 la_oenb[8] vssa1 0.63fF
+C664 la_data_out[8] vssa1 0.63fF
+C665 la_data_in[8] vssa1 0.63fF
+C666 la_oenb[7] vssa1 0.63fF
+C667 la_data_out[7] vssa1 0.63fF
+C668 la_data_in[7] vssa1 0.63fF
+C669 la_oenb[6] vssa1 0.63fF
+C670 la_data_out[6] vssa1 0.63fF
+C671 la_data_in[6] vssa1 0.63fF
+C672 la_oenb[5] vssa1 0.63fF
+C673 la_data_out[5] vssa1 0.63fF
+C674 la_data_in[5] vssa1 0.63fF
+C675 la_oenb[4] vssa1 0.63fF
+C676 la_data_out[4] vssa1 0.63fF
+C677 la_data_in[4] vssa1 0.63fF
+C678 la_oenb[3] vssa1 0.63fF
+C679 la_data_out[3] vssa1 0.63fF
+C680 la_data_in[3] vssa1 0.63fF
+C681 la_oenb[2] vssa1 0.63fF
+C682 la_data_out[2] vssa1 0.63fF
+C683 la_data_in[2] vssa1 0.63fF
+C684 la_oenb[1] vssa1 0.63fF
+C685 la_data_out[1] vssa1 0.63fF
+C686 la_data_in[1] vssa1 0.63fF
+C687 la_oenb[0] vssa1 0.63fF
+C688 la_data_out[0] vssa1 0.63fF
+C689 la_data_in[0] vssa1 0.63fF
+C690 wbs_dat_o[31] vssa1 0.63fF
+C691 wbs_dat_i[31] vssa1 0.63fF
+C692 wbs_adr_i[31] vssa1 0.63fF
+C693 wbs_dat_o[30] vssa1 0.63fF
+C694 wbs_dat_i[30] vssa1 0.63fF
+C695 wbs_adr_i[30] vssa1 0.63fF
+C696 wbs_dat_o[29] vssa1 0.63fF
+C697 wbs_dat_i[29] vssa1 0.63fF
+C698 wbs_adr_i[29] vssa1 0.63fF
+C699 wbs_dat_o[28] vssa1 0.63fF
+C700 wbs_dat_i[28] vssa1 0.63fF
+C701 wbs_adr_i[28] vssa1 0.63fF
+C702 wbs_dat_o[27] vssa1 0.63fF
+C703 wbs_dat_i[27] vssa1 0.63fF
+C704 wbs_adr_i[27] vssa1 0.63fF
+C705 wbs_dat_o[26] vssa1 0.63fF
+C706 wbs_dat_i[26] vssa1 0.63fF
+C707 wbs_adr_i[26] vssa1 0.63fF
+C708 wbs_dat_o[25] vssa1 0.63fF
+C709 wbs_dat_i[25] vssa1 0.63fF
+C710 wbs_adr_i[25] vssa1 0.63fF
+C711 wbs_dat_o[24] vssa1 0.63fF
+C712 wbs_dat_i[24] vssa1 0.63fF
+C713 wbs_adr_i[24] vssa1 0.63fF
+C714 wbs_dat_o[23] vssa1 0.63fF
+C715 wbs_dat_i[23] vssa1 0.63fF
+C716 wbs_adr_i[23] vssa1 0.63fF
+C717 wbs_dat_o[22] vssa1 0.63fF
+C718 wbs_dat_i[22] vssa1 0.63fF
+C719 wbs_adr_i[22] vssa1 0.63fF
+C720 wbs_dat_o[21] vssa1 0.63fF
+C721 wbs_dat_i[21] vssa1 0.63fF
+C722 wbs_adr_i[21] vssa1 0.63fF
+C723 wbs_dat_o[20] vssa1 0.63fF
+C724 wbs_dat_i[20] vssa1 0.63fF
+C725 wbs_adr_i[20] vssa1 0.63fF
+C726 wbs_dat_o[19] vssa1 0.63fF
+C727 wbs_dat_i[19] vssa1 0.63fF
+C728 wbs_adr_i[19] vssa1 0.63fF
+C729 wbs_dat_o[18] vssa1 0.63fF
+C730 wbs_dat_i[18] vssa1 0.63fF
+C731 wbs_adr_i[18] vssa1 0.63fF
+C732 wbs_dat_o[17] vssa1 0.63fF
+C733 wbs_dat_i[17] vssa1 0.63fF
+C734 wbs_adr_i[17] vssa1 0.63fF
+C735 wbs_dat_o[16] vssa1 0.63fF
+C736 wbs_dat_i[16] vssa1 0.63fF
+C737 wbs_adr_i[16] vssa1 0.63fF
+C738 wbs_dat_o[15] vssa1 0.63fF
+C739 wbs_dat_i[15] vssa1 0.63fF
+C740 wbs_adr_i[15] vssa1 0.63fF
+C741 wbs_dat_o[14] vssa1 0.63fF
+C742 wbs_dat_i[14] vssa1 0.63fF
+C743 wbs_adr_i[14] vssa1 0.63fF
+C744 wbs_dat_o[13] vssa1 0.63fF
+C745 wbs_dat_i[13] vssa1 0.63fF
+C746 wbs_adr_i[13] vssa1 0.63fF
+C747 wbs_dat_o[12] vssa1 0.63fF
+C748 wbs_dat_i[12] vssa1 0.63fF
+C749 wbs_adr_i[12] vssa1 0.63fF
+C750 wbs_dat_o[11] vssa1 0.63fF
+C751 wbs_dat_i[11] vssa1 0.63fF
+C752 wbs_adr_i[11] vssa1 0.63fF
+C753 wbs_dat_o[10] vssa1 0.63fF
+C754 wbs_dat_i[10] vssa1 0.63fF
+C755 wbs_adr_i[10] vssa1 0.63fF
+C756 wbs_dat_o[9] vssa1 0.63fF
+C757 wbs_dat_i[9] vssa1 0.63fF
+C758 wbs_adr_i[9] vssa1 0.63fF
+C759 wbs_dat_o[8] vssa1 0.63fF
+C760 wbs_dat_i[8] vssa1 0.63fF
+C761 wbs_adr_i[8] vssa1 0.63fF
+C762 wbs_dat_o[7] vssa1 0.63fF
+C763 wbs_dat_i[7] vssa1 0.63fF
+C764 wbs_adr_i[7] vssa1 0.63fF
+C765 wbs_dat_o[6] vssa1 0.63fF
+C766 wbs_dat_i[6] vssa1 0.63fF
+C767 wbs_adr_i[6] vssa1 0.63fF
+C768 wbs_dat_o[5] vssa1 0.63fF
+C769 wbs_dat_i[5] vssa1 0.63fF
+C770 wbs_adr_i[5] vssa1 0.63fF
+C771 wbs_dat_o[4] vssa1 0.63fF
+C772 wbs_dat_i[4] vssa1 0.63fF
+C773 wbs_adr_i[4] vssa1 0.63fF
+C774 wbs_sel_i[3] vssa1 0.63fF
+C775 wbs_dat_o[3] vssa1 0.63fF
+C776 wbs_dat_i[3] vssa1 0.63fF
+C777 wbs_adr_i[3] vssa1 0.63fF
+C778 wbs_sel_i[2] vssa1 0.63fF
+C779 wbs_dat_o[2] vssa1 0.63fF
+C780 wbs_dat_i[2] vssa1 0.63fF
+C781 wbs_adr_i[2] vssa1 0.63fF
+C782 wbs_sel_i[1] vssa1 0.63fF
+C783 wbs_dat_o[1] vssa1 0.63fF
+C784 wbs_dat_i[1] vssa1 0.63fF
+C785 wbs_adr_i[1] vssa1 0.63fF
+C786 wbs_sel_i[0] vssa1 0.63fF
+C787 wbs_dat_o[0] vssa1 0.63fF
+C788 wbs_dat_i[0] vssa1 0.63fF
+C789 wbs_adr_i[0] vssa1 0.63fF
+C790 wbs_we_i vssa1 0.63fF
+C791 wbs_stb_i vssa1 0.63fF
+C792 wbs_cyc_i vssa1 0.63fF
+C793 wbs_ack_o vssa1 0.63fF
+C794 wb_rst_i vssa1 0.63fF
+C795 wb_clk_i vssa1 0.63fF
+C796 a_493938_644874# vssa1 43.58fF
+C797 a_490782_644900# vssa1 42.95fF
+C798 a_487694_644902# vssa1 43.39fF
+C799 a_484664_644902# vssa1 43.97fF
+C800 a_481708_644918# vssa1 44.10fF
+C801 a_479772_646886# vssa1 35.70fF
+C802 a_506614_647168# vssa1 33.83fF
+C803 a_505416_647172# vssa1 22.63fF
+C804 a_504724_647182# vssa1 12.41fF
+C805 a_500126_647170# vssa1 33.86fF
+C806 a_498928_647174# vssa1 22.60fF
+C807 a_498236_647184# vssa1 12.39fF
+C808 a_483446_644892# vssa1 21.83fF
+C809 VCO_Flat_0/Buff_VCO_0/IN vssa1 12.42fF
+C810 a_475058_648060# vssa1 12.40fF
+C811 a_473374_648060# vssa1 22.58fF
+C812 a_471230_648050# vssa1 33.87fF
+C813 VCO_Flat_0/Buff_VCO_3/IN vssa1 18.39fF
+C814 a_468592_648062# vssa1 12.39fF
+C815 a_466908_648062# vssa1 22.59fF
+C816 a_464764_648054# vssa1 33.85fF
+C817 VCO_Flat_0/Buff_VCO_4/IN vssa1 15.78fF
+C818 a_461762_648050# vssa1 12.39fF
+C819 a_460078_648050# vssa1 22.61fF
+C820 a_457934_648038# vssa1 33.90fF
+C821 VCO_Flat_0/Buff_VCO_1/IN vssa1 16.04fF
+C822 VCO_Flat_0/Buff_VCO_2/IN vssa1 13.45fF
+C823 a_493974_650212# vssa1 2.48fF
+C824 a_490818_650238# vssa1 2.48fF
+C825 a_487730_650240# vssa1 2.48fF
+C826 a_484700_650240# vssa1 2.48fF
+C827 a_481744_650256# vssa1 2.47fF
+C828 a_479864_646886# vssa1 15.32fF
+C829 esd_1/in vssa1 171.63fF
+C830 io_analog[1] vssa1 47.87fF
+C831 esd_2/in vssa1 246.98fF
+C832 io_analog[2] vssa1 47.79fF
+C833 esd_3/in vssa1 147.76fF
+C834 io_analog[3] vssa1 47.61fF
+C835 esd_4/in vssa1 228.91fF
+C836 io_analog[4] vssa1 66.51fF
+C837 esd_5/in vssa1 337.52fF
+C838 io_analog[5] vssa1 66.50fF
+C839 esd_0/in vssa1 421.01fF
+C840 io_analog[6] vssa1 66.60fF
+C841 esd_6/in vssa1 484.76fF
+C842 io_analog[7] vssa1 47.62fF
+C843 vccd1 vssa1 2537.37fF
+.ends
+
