@@ -1,0 +1,213 @@
+* NGSPICE file created from VCO_Flat.ext - technology: sky130A
+
+.subckt Final_5_NSO OUT_2 VP OUT_1 VB OUT_3 VCT VN OUT_4 OUT_5
+X0 VP a_n8096_3410# a_n10240_3400# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X1 VN a_n6412_3410# a_n8096_3410# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X2 VP Buff_VCO_2/IN a_n6412_3410# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X3 VP a_23946_2522# a_25144_2518# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X4 a_n10240_3400# a_n8096_3410# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X5 VN Buff_VCO_4/IN a_n19708_3400# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X6 a_6260_5590# a_n1606_2236# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X7 VP a_25144_2518# OUT_2 VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X8 VN a_n21392_3400# a_n23536_3388# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X9 VN a_n12878_3412# a_n14562_3412# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X10 a_n16706_3404# a_n14562_3412# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X11 OUT_3 a_n10240_3400# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X12 OUT_1 a_18656_2520# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X13 VP VCT a_9348_5588# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X14 OUT_1 a_18656_2520# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X15 a_n16706_3404# a_n14562_3412# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X16 Buff_VCO_3/IN Buff_VCO_4/IN a_3194_252# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X17 VP a_n12878_3412# a_n14562_3412# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X18 VN a_n23536_3388# OUT_5 VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X19 a_18656_2520# a_17458_2524# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X20 a_274_5606# a_n1606_2236# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X21 Buff_VCO_1/IN Buff_VCO_2/IN a_9312_250# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X22 a_17458_2524# a_16766_2534# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X23 OUT_2 a_25144_2518# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X24 VN a_n19708_3400# a_n21392_3400# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X25 a_n23536_3388# a_n21392_3400# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X26 a_n12878_3412# Buff_VCO_3/IN VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X27 a_3230_5590# VCT VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X28 OUT_5 a_n23536_3388# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X29 a_n1698_2236# a_n1698_2236# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=200000u M=8
+X30 a_23946_2522# a_23254_2532# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X31 VN a_23946_2522# a_25144_2518# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X32 VN a_17458_2524# a_18656_2520# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=15
+X33 VN a_n16706_3404# OUT_4 VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X34 VP VCT a_12504_5562# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X35 a_23946_2522# a_23254_2532# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X36 a_12504_5562# Buff_VCO_3/IN Buff_VCO_0/IN VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X37 a_n1606_2236# a_n1606_2236# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=200000u M=8
+X38 a_6260_5590# VCT VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X39 VP a_n6412_3410# a_n8096_3410# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X40 a_3230_5590# Buff_VCO_1/IN Buff_VCO_3/IN VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X41 OUT_4 a_n16706_3404# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X42 Buff_VCO_4/IN Buff_VCO_2/IN a_274_5606# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X43 VN Buff_VCO_0/IN a_16766_2534# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X44 a_274_5606# VCT VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X45 a_9312_250# a_1976_242# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X46 VN a_n10240_3400# OUT_3 VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=20
+X47 a_12504_5562# a_n1606_2236# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X48 VP Buff_VCO_0/IN a_16766_2534# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X49 a_12468_224# a_1976_242# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X50 Buff_VCO_4/IN Buff_VCO_0/IN a_238_268# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X51 a_9348_5588# a_n1606_2236# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X52 Buff_VCO_2/IN Buff_VCO_0/IN a_6260_5590# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X53 VP Buff_VCO_4/IN a_n19708_3400# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X54 VN a_n1698_2236# a_6224_252# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X55 a_17458_2524# a_16766_2534# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X56 Buff_VCO_2/IN Buff_VCO_3/IN a_6224_252# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X57 a_n1698_2236# VB a_n1606_2236# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=8
+X58 a_6224_252# a_1976_242# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X59 a_3230_5590# a_n1606_2236# VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X60 a_3194_252# a_1976_242# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X61 a_23254_2532# Buff_VCO_1/IN VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X62 VP a_n19708_3400# a_n21392_3400# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=10
+X63 Buff_VCO_0/IN Buff_VCO_1/IN a_12468_224# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X64 VN Buff_VCO_2/IN a_n6412_3410# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X65 a_23254_2532# Buff_VCO_1/IN VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X66 a_9312_250# a_n1698_2236# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X67 a_9348_5588# Buff_VCO_4/IN Buff_VCO_1/IN VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=4
+X68 VN a_n1698_2236# a_12468_224# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X69 Buff_VCO_2/IN Buff_VCO_0/IN VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+X70 VN Buff_VCO_3/IN a_n12878_3412# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=5
+X71 a_238_268# a_1976_242# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=11
+X72 VN a_n1698_2236# a_3194_252# VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X73 Buff_VCO_0/IN Buff_VCO_3/IN VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+X74 Buff_VCO_3/IN Buff_VCO_1/IN VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+X75 a_238_268# a_n1698_2236# VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u M=12
+X76 VP VN a_1976_242# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+07u l=150000u M=2
+X77 a_1976_242# VCT VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=6e+06u l=150000u
+X78 Buff_VCO_1/IN Buff_VCO_4/IN VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+X79 Buff_VCO_4/IN Buff_VCO_2/IN VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=500000u
+C0 a_6224_252# Buff_VCO_2/IN 6.58fF
+C1 VP a_9348_5588# 34.67fF
+C2 a_23254_2532# Buff_VCO_1/IN 0.40fF
+C3 Buff_VCO_1/IN VCT 0.44fF
+C4 a_3194_252# a_6224_252# 0.31fF
+C5 Buff_VCO_1/IN Buff_VCO_0/IN 1.94fF
+C6 Buff_VCO_4/IN Buff_VCO_2/IN 3.68fF
+C7 a_238_268# Buff_VCO_0/IN 0.02fF
+C8 VP OUT_2 35.19fF
+C9 Buff_VCO_4/IN a_n8096_3410# 0.76fF
+C10 a_238_268# a_n1698_2236# 0.51fF
+C11 Buff_VCO_4/IN a_3194_252# 0.02fF
+C12 Buff_VCO_4/IN a_n12878_3412# 0.61fF
+C13 VP a_1976_242# 5.82fF
+C14 VP a_n14562_3412# 17.70fF
+C15 Buff_VCO_2/IN a_6260_5590# 6.48fF
+C16 Buff_VCO_3/IN Buff_VCO_0/IN 1.72fF
+C17 VP a_n10240_3400# 27.24fF
+C18 a_25144_2518# a_23946_2522# 0.82fF
+C19 Buff_VCO_4/IN a_9348_5588# 0.17fF
+C20 VP a_n23536_3388# 27.23fF
+C21 a_n14562_3412# a_n16706_3404# 0.82fF
+C22 Buff_VCO_4/IN VB 0.20fF
+C23 VP a_23254_2532# 9.23fF
+C24 VP VCT 6.06fF
+C25 a_n23536_3388# OUT_5 2.28fF
+C26 Buff_VCO_3/IN a_n1606_2236# 0.08fF
+C27 a_1976_242# a_6224_252# 0.45fF
+C28 VP Buff_VCO_0/IN 0.14fF
+C29 a_9312_250# Buff_VCO_1/IN 6.60fF
+C30 a_1976_242# a_12468_224# 0.77fF
+C31 Buff_VCO_4/IN a_n14562_3412# 0.99fF
+C32 VP a_n1606_2236# 23.05fF
+C33 a_16766_2534# Buff_VCO_0/IN 0.40fF
+C34 VB Buff_VCO_2/IN 0.45fF
+C35 VP a_274_5606# 34.72fF
+C36 VP OUT_4 35.19fF
+C37 Buff_VCO_4/IN a_n10240_3400# 1.15fF
+C38 a_6224_252# a_n1698_2236# 0.51fF
+C39 VP a_23946_2522# 17.69fF
+C40 Buff_VCO_3/IN OUT_3 0.02fF
+C41 a_12468_224# Buff_VCO_0/IN 6.81fF
+C42 Buff_VCO_4/IN Buff_VCO_0/IN 4.75fF
+C43 a_n16706_3404# OUT_4 2.28fF
+C44 a_12468_224# a_n1698_2236# 0.45fF
+C45 a_3194_252# a_1976_242# 0.45fF
+C46 VP a_n19708_3400# 9.21fF
+C47 a_n14562_3412# a_n12878_3412# 1.00fF
+C48 a_12504_5562# VCT 0.01fF
+C49 Buff_VCO_4/IN a_n1606_2236# 0.10fF
+C50 a_n10240_3400# a_n8096_3410# 0.82fF
+C51 Buff_VCO_3/IN Buff_VCO_1/IN 0.74fF
+C52 VP OUT_3 35.19fF
+C53 a_12504_5562# Buff_VCO_0/IN 6.48fF
+C54 VP a_18656_2520# 27.24fF
+C55 Buff_VCO_4/IN a_274_5606# 6.48fF
+C56 a_n21392_3400# a_n23536_3388# 0.82fF
+C57 a_6260_5590# Buff_VCO_0/IN 0.17fF
+C58 Buff_VCO_4/IN OUT_4 1.58fF
+C59 a_3230_5590# a_n1606_2236# 0.02fF
+C60 Buff_VCO_2/IN Buff_VCO_0/IN 2.96fF
+C61 VP a_25144_2518# 27.23fF
+C62 a_n1606_2236# a_12504_5562# 0.02fF
+C63 a_n1606_2236# a_6260_5590# 0.02fF
+C64 Buff_VCO_2/IN a_n1698_2236# 0.10fF
+C65 a_9312_250# a_6224_252# 0.25fF
+C66 VP Buff_VCO_1/IN 0.33fF
+C67 a_3194_252# a_n1698_2236# 0.51fF
+C68 a_274_5606# Buff_VCO_2/IN 0.16fF
+C69 a_9312_250# a_12468_224# 0.20fF
+C70 Buff_VCO_4/IN a_n19708_3400# 0.40fF
+C71 VP a_n6412_3410# 9.21fF
+C72 Buff_VCO_4/IN OUT_3 1.10fF
+C73 VP Buff_VCO_3/IN 1.23fF
+C74 a_n1606_2236# a_9348_5588# 0.02fF
+C75 VB a_n1698_2236# 0.28fF
+C76 a_1976_242# VCT 0.17fF
+C77 a_n1606_2236# VB 0.53fF
+C78 a_9312_250# Buff_VCO_2/IN 0.02fF
+C79 a_18656_2520# OUT_1 2.28fF
+C80 Buff_VCO_1/IN a_12468_224# 0.02fF
+C81 Buff_VCO_4/IN Buff_VCO_1/IN 1.94fF
+C82 a_238_268# Buff_VCO_4/IN 6.58fF
+C83 a_n21392_3400# a_n19708_3400# 1.00fF
+C84 a_1976_242# Buff_VCO_0/IN 0.06fF
+C85 a_17458_2524# a_18656_2520# 0.82fF
+C86 VP OUT_5 35.18fF
+C87 a_1976_242# a_n1698_2236# 4.73fF
+C88 Buff_VCO_3/IN a_6224_252# 0.02fF
+C89 a_3230_5590# Buff_VCO_1/IN 0.16fF
+C90 Buff_VCO_1/IN OUT_1 0.23fF
+C91 VP a_16766_2534# 9.22fF
+C92 Buff_VCO_4/IN a_n6412_3410# 0.47fF
+C93 VP a_n16706_3404# 27.24fF
+C94 Buff_VCO_4/IN Buff_VCO_3/IN 5.50fF
+C95 VCT Buff_VCO_0/IN 0.18fF
+C96 Buff_VCO_1/IN Buff_VCO_2/IN 1.42fF
+C97 a_n1606_2236# VCT 1.17fF
+C98 a_3230_5590# Buff_VCO_3/IN 6.48fF
+C99 a_238_268# a_3194_252# 0.84fF
+C100 Buff_VCO_3/IN a_12504_5562# 0.17fF
+C101 VP Buff_VCO_4/IN 1.58fF
+C102 a_n6412_3410# Buff_VCO_2/IN 0.40fF
+C103 a_9312_250# a_1976_242# 0.45fF
+C104 Buff_VCO_3/IN Buff_VCO_2/IN 0.72fF
+C105 a_n6412_3410# a_n8096_3410# 1.00fF
+C106 a_n1606_2236# a_n1698_2236# 13.59fF
+C107 Buff_VCO_1/IN a_9348_5588# 6.49fF
+C108 a_3230_5590# VP 34.66fF
+C109 VP OUT_1 35.19fF
+C110 a_23254_2532# a_23946_2522# 1.04fF
+C111 OUT_2 a_25144_2518# 1.73fF
+C112 a_3194_252# Buff_VCO_3/IN 6.59fF
+C113 VP a_12504_5562# 34.68fF
+C114 Buff_VCO_3/IN a_n12878_3412# 0.40fF
+C115 Buff_VCO_4/IN a_n16706_3404# 1.51fF
+C116 a_n1606_2236# a_274_5606# 0.07fF
+C117 VP a_6260_5590# 34.66fF
+C118 a_17458_2524# VP 17.68fF
+C119 VP Buff_VCO_2/IN 0.06fF
+C120 VP a_n8096_3410# 17.71fF
+C121 OUT_3 a_n10240_3400# 2.28fF
+C122 VP a_n21392_3400# 17.69fF
+C123 a_17458_2524# a_16766_2534# 1.00fF
+C124 a_1976_242# Buff_VCO_1/IN 0.06fF
+C125 a_238_268# a_1976_242# 0.45fF
+C126 VP a_n12878_3412# 9.21fF
+C127 a_9312_250# a_n1698_2236# 0.51fF
+.ends
+
