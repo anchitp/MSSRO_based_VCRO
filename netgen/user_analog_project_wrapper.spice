@@ -874,7 +874,7 @@ X785 Buff_VCO_1/IN Buff_VCO_4/IN a_9348_5588# VP sky130_fd_pr__pfet_01v8 ad=0p p
 X786 VP a_23254_2532# a_23946_2522# VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
 .ends
 
-.subckt x/root/MSSRO_based_VCRO/mag/user_analog_project_wrapper gpio_analog[0] gpio_analog[10]
+.subckt user_analog_project_wrapper gpio_analog[0] gpio_analog[10]
 + gpio_analog[11] gpio_analog[12] gpio_analog[13] gpio_analog[14] gpio_analog[15]
 + gpio_analog[16] gpio_analog[17] gpio_analog[1] gpio_analog[2] gpio_analog[3]
 + gpio_analog[4] gpio_analog[5] gpio_analog[6] gpio_analog[7] gpio_analog[8]
