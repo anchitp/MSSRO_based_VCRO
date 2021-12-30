@@ -1,4 +1,4 @@
-timestamp 1640665730
+timestamp 1640791681
 version 8.3
 tech sky130A
 style ngspice()
@@ -189,21 +189,21 @@ port "io_analog[10]" 37 0 680242 1700 685242 m3
 port "io_analog[1]" 38 566594 702300 571594 704800 m3
 port "io_analog[2]" 39 465394 702300 470394 704800 m3
 port "io_analog[3]" 40 413394 702300 418394 704800 m3
-port "io_analog[4]" 41 329294 702300 334294 704800 m3
-port "io_analog[4]" 47 318994 702300 323994 704800 m3
-port "io_analog[5]" 42 227594 702300 232594 704800 m3
-port "io_analog[5]" 48 217294 702300 222294 704800 m3
-port "io_analog[6]" 43 175894 702300 180894 704800 m3
 port "vccd1" 553 582340 629784 584800 634584 m3
 port "vccd1" 552 582340 639784 584800 644584 m3
-port "io_clamp_high[2]" 52 173394 702300 175594 704800 m3
-port "io_clamp_high[1]" 51 225094 702300 227294 704800 m3
-port "io_clamp_high[0]" 50 326794 702300 328994 704800 m3
 port "vssa1" 563 510594 702340 515394 704800 m3
 port "vssa1" 562 520594 702340 525394 704800 m3
-port "io_clamp_low[2]" 55 170894 702300 173094 704800 m3
-port "io_clamp_low[1]" 54 222594 702300 224794 704800 m3
+port "io_analog[4]" 41 329294 702300 334294 704800 m3
+port "io_clamp_high[0]" 50 326794 702300 328994 704800 m3
 port "io_clamp_low[0]" 53 324294 702300 326494 704800 m3
+port "io_analog[4]" 47 318994 702300 323994 704800 m3
+port "io_analog[5]" 42 227594 702300 232594 704800 m3
+port "io_clamp_high[1]" 51 225094 702300 227294 704800 m3
+port "io_clamp_low[1]" 54 222594 702300 224794 704800 m3
+port "io_analog[5]" 48 217294 702300 222294 704800 m3
+port "io_analog[6]" 43 175894 702300 180894 704800 m3
+port "io_clamp_high[2]" 52 173394 702300 175594 704800 m3
+port "io_clamp_low[2]" 55 170894 702300 173094 704800 m3
 port "io_analog[6]" 49 165594 702300 170594 704800 m3
 port "io_analog[7]" 44 120194 702300 125194 704800 m3
 port "io_analog[8]" 45 68194 702300 73194 704800 m3
@@ -878,19 +878,25 @@ node "io_analog[10]" 0 6825 0 680242 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "io_analog[1]" 1 15627.1 566594 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25613276 20412 4688098 17590 0 0 0 0
 node "io_analog[2]" 1 15059.7 465394 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25466876 20356 4112418 15570 0 0 0 0
 node "io_analog[3]" 1 14992.8 413394 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24750000 19900 4516736 17040 0 0 0 0
+node "m3_326806_700392#" 0 273.119 326806 700392 rm3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 557796 516 0 0 0 0 0 0
+node "m3_324320_700392#" 0 273.274 324320 700392 rm3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 558312 516 0 0 0 0 0 0
+node "m3_225118_700522#" 0 272.964 225118 700522 rm3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 557280 516 0 0 0 0 0 0
+node "m3_222608_700522#" 0 273.583 222608 700522 rm3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 559344 516 0 0 0 0 0 0
+node "vccd1" 0 822043 582340 639784 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 332592660 185622 485483112 252400 2682894464 954136 0 0
+node "m3_173410_700370#" 0 272.964 173410 700370 rm3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 557280 516 0 0 0 0 0 0
+node "vssa1" 0 784357 520594 702340 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 243252444 189942 419683028 261056 2682475584 953928 0 0
+node "m3_170914_700368#" 0 273.738 170914 700368 rm3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 559860 516 0 0 0 0 0 0
 node "io_analog[4]" 0 6825 329294 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12500000 15000 0 0 0 0 0 0
+node "io_clamp_high[0]" 0 4880.48 326794 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9067300 10538 0 0 0 0 0 0
+node "io_clamp_low[0]" 0 4881.06 324294 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9070600 10536 0 0 0 0 0 0
 node "io_analog[4]" 0 6825 318994 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12500000 15000 0 0 0 0 0 0
 node "io_analog[5]" 0 6825 227594 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12500000 15000 0 0 0 0 0 0
+node "io_clamp_high[1]" 0 4742.36 225094 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8783200 10280 0 0 0 0 0 0
+node "io_clamp_low[1]" 0 4744.37 222594 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8795360 10272 0 0 0 0 0 0
 node "io_analog[5]" 0 6825 217294 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12500000 15000 0 0 0 0 0 0
 node "io_analog[6]" 0 6825 175894 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12500000 15000 0 0 0 0 0 0
-node "vccd1" 0 837388 582340 639784 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 361227036 218572 485483112 252400 2682894464 954136 0 0
-equiv "vccd1" "io_clamp_high[2]"
-equiv "vccd1" "io_clamp_high[1]"
-equiv "vccd1" "io_clamp_high[0]"
-node "vssa1" 0 799711 520594 702340 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 271928500 222876 419683028 261056 2682475584 953928 0 0
-equiv "vssa1" "io_clamp_low[2]"
-equiv "vssa1" "io_clamp_low[1]"
-equiv "vssa1" "io_clamp_low[0]"
+node "io_clamp_high[2]" 0 4903.18 173394 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9111520 10584 0 0 0 0 0 0
+node "io_clamp_low[2]" 0 4908.26 170894 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9132580 10578 0 0 0 0 0 0
 node "io_analog[6]" 0 6825 165594 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12500000 15000 0 0 0 0 0 0
 node "io_analog[7]" 1 15421 120194 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24740000 19896 4949462 18506 0 0 0 0
 node "io_analog[8]" 0 6825 68194 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12500000 15000 0 0 0 0 0 0
@@ -1395,115 +1401,132 @@ node "m1_470764_631374#" 4 251209 470764 631374 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "m1_464086_634368#" 2 143024 464086 634368 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370232 9548 206976 1996 217916 2016 354250616 374068 0 0 0 0
 node "m1_456624_637548#" 1 61266.2 456624 637548 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 394800 3160 204000 1960 214400 1980 130534428 184180 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "vccd1" "io_analog[7]" 8663.89
-cap "io_analog[4]" "io_analog[4]" 26250
-cap "io_analog[5]" "io_analog[5]" 21826.7
-cap "io_analog[5]" "vccd1" 11829.1
-cap "m3_466536_670726#" "m1_503914_629512#" 843.528
-cap "io_analog[4]" "io_analog[4]" 21843.1
-cap "io_analog[5]" "io_analog[5]" 26250
-cap "io_analog[6]" "vssa1" 525
-cap "vssa1" "m1_464086_634368#" 8663.89
-cap "m3_466536_670726#" "vssa1" 8663.89
-cap "m4_565592_672992#" "m3_466536_670726#" 1169.06
-cap "io_analog[1]" "vccd1" 8663.89
-cap "vssa1" "io_analog[6]" 3280.08
-cap "m1_510626_625510#" "m3_466536_670726#" 850.509
-cap "vssa1" "m1_456624_637548#" 8684.9
-cap "io_analog[4]" "io_analog[4]" 353.36
-cap "io_analog[5]" "io_analog[5]" 26250
-cap "vccd1" "io_analog[5]" 525
-cap "io_analog[5]" "io_analog[5]" 343.56
-cap "io_analog[6]" "vccd1" 525
-cap "vccd1" "m3_466536_670726#" 38898.4
-cap "vccd1" "io_analog[6]" 11944
-cap "io_analog[5]" "io_analog[5]" 21632.1
-cap "vccd1" "io_analog[4]" 525
-cap "m1_503914_629512#" "vssa1" 8642.87
-cap "m4_565592_672992#" "m1_503914_629512#" 738.476
-cap "vccd1" "io_analog[2]" 8474.95
-cap "io_analog[5]" "vssa1" 525
-cap "io_analog[6]" "io_analog[6]" 26250
-cap "vssa1" "io_analog[4]" 3431.88
-cap "m4_565592_672992#" "vssa1" 8684.9
-cap "io_analog[6]" "io_analog[6]" 21794.3
-cap "m1_510626_625510#" "vssa1" 8684.9
+cap "io_analog[5]" "io_clamp_low[1]" 525
 cap "m1_510626_625510#" "m4_565592_672992#" 743.283
-cap "io_analog[6]" "io_analog[6]" 212.24
-cap "io_analog[6]" "io_analog[6]" 324.24
-cap "io_analog[5]" "io_analog[5]" 227.64
-cap "io_analog[4]" "io_analog[4]" 26250
-cap "vssa1" "io_analog[4]" 525
-cap "io_analog[4]" "io_analog[4]" 227.64
+cap "m3_466536_670726#" "m1_503914_629512#" 843.528
+cap "m1_464086_634368#" "vssa1" 8663.89
+cap "io_clamp_low[2]" "io_analog[6]" 525
+cap "m1_456624_637548#" "vssa1" 8684.9
+cap "io_clamp_high[1]" "io_analog[5]" 3431.88
+cap "io_analog[5]" "io_clamp_high[1]" 525
+cap "m3_326806_700392#" "m3_324320_700392#" 50.4783
+cap "io_analog[5]" "io_clamp_low[1]" 3431.88
 cap "io_analog[6]" "io_analog[6]" 26250
-cap "vccd1" "vssa1" 104224
-cap "vccd1" "io_analog[4]" 12074.8
+cap "m3_466536_670726#" "vssa1" 8663.89
+cap "io_analog[5]" "io_analog[5]" 227.64
+cap "io_analog[4]" "vccd1" 8642.87
+cap "io_analog[6]" "io_analog[6]" 212.24
 cap "m4_565592_672992#" "vccd1" 13451.4
-cap "vccd1" "io_analog[3]" 8642.87
+cap "io_analog[4]" "io_analog[4]" 26250
+cap "io_analog[3]" "vccd1" 8642.87
+cap "io_analog[5]" "io_analog[5]" 343.56
+cap "vccd1" "m3_170914_700368#" 0.386503
+cap "io_analog[5]" "io_analog[5]" 21826.7
+cap "io_analog[6]" "io_analog[6]" 26250
+cap "m4_565592_672992#" "m3_466536_670726#" 1169.06
+cap "m1_503914_629512#" "vssa1" 8642.87
+cap "io_analog[5]" "io_analog[5]" 26250
+cap "io_clamp_high[2]" "io_analog[6]" 525
+cap "io_analog[6]" "io_analog[6]" 324.24
+cap "io_analog[4]" "io_clamp_low[0]" 525
+cap "m1_510626_625510#" "m3_466536_670726#" 850.509
+cap "io_analog[4]" "io_analog[4]" 227.64
 cap "io_analog[4]" "io_analog[4]" 21632.1
-cap "io_analog[5]" "vssa1" 3431.88
-cap "io_analog[6]" "io_analog[6]" 21606.3
+cap "m4_565592_672992#" "m1_503914_629512#" 738.476
+cap "io_analog[4]" "io_analog[4]" 26250
+cap "vccd1" "io_analog[2]" 8474.95
+cap "vccd1" "io_analog[7]" 8663.89
+cap "io_analog[4]" "io_clamp_high[0]" 525
+cap "m3_173410_700370#" "m3_170914_700368#" 49.4724
 cap "m1_470764_631374#" "vssa1" 8663.89
+cap "m3_222608_700522#" "m3_225118_700522#" 47.5263
+cap "m3_466536_670726#" "vccd1" 38898.4
+cap "m4_565592_672992#" "vssa1" 8684.9
+cap "io_analog[4]" "io_analog[4]" 21843.1
+cap "io_clamp_low[2]" "io_clamp_high[2]" 848.117
+cap "vccd1" "io_analog[1]" 8663.89
+cap "io_clamp_low[0]" "io_clamp_high[0]" 847.826
+cap "io_analog[4]" "io_clamp_high[0]" 3431.88
+cap "io_analog[4]" "io_analog[4]" 353.36
+cap "io_analog[6]" "vccd1" 8663.89
+cap "io_analog[5]" "io_analog[5]" 26250
+cap "io_clamp_low[2]" "io_analog[6]" 3280.08
+cap "m1_510626_625510#" "vssa1" 8684.9
+cap "io_clamp_low[0]" "io_analog[4]" 3431.88
+cap "io_analog[6]" "io_analog[6]" 21794.3
+cap "io_analog[6]" "io_clamp_high[2]" 3280.08
+cap "io_analog[5]" "io_analog[5]" 21632.1
+cap "vccd1" "io_analog[5]" 8397.24
+cap "io_clamp_low[2]" "m3_173410_700370#" 0.386503
+cap "io_analog[6]" "io_analog[6]" 21606.3
+cap "io_clamp_high[1]" "io_clamp_low[1]" 805
+cap "vccd1" "vssa1" 101575
+device devres sky130_fd_pr__res_generic_m3 326806 700392 326807 700393 258 2162 "m3_326806_700392#" 0 0 "vccd1" 2162 0 "io_clamp_high[0]" 2162 0
+device devres sky130_fd_pr__res_generic_m3 324320 700392 324321 700393 258 2164 "m3_324320_700392#" 0 0 "vssa1" 2164 0 "io_clamp_low[0]" 2164 0
+device devres sky130_fd_pr__res_generic_m3 225118 700522 225119 700523 258 2160 "m3_225118_700522#" 0 0 "vccd1" 2160 0 "io_clamp_high[1]" 2160 0
+device devres sky130_fd_pr__res_generic_m3 222608 700522 222609 700523 258 2168 "m3_222608_700522#" 0 0 "vssa1" 2168 0 "io_clamp_low[1]" 2168 0
+device devres sky130_fd_pr__res_generic_m3 173410 700370 173411 700371 258 2160 "m3_173410_700370#" 0 0 "vccd1" 2160 0 "io_clamp_high[2]" 2160 0
+device devres sky130_fd_pr__res_generic_m3 170914 700368 170915 700369 258 2170 "m3_170914_700368#" 0 0 "vssa1" 2170 0 "io_clamp_low[2]" 2170 0
 cap "m1_456624_637548#" "vssa1" 329.55
-cap "m1_464086_634368#" "vssa1" 329.55
-cap "vssa1" "m1_470764_631374#" 202.14
-cap "m1_470764_631374#" "vssa1" 13.745
+cap "vssa1" "m1_464086_634368#" 329.55
+cap "m1_470764_631374#" "vssa1" 202.14
+cap "vssa1" "m1_470764_631374#" 13.745
 cap "vssa1" "m3_466536_670726#" 622.024
-cap "m3_466536_670726#" "vssa1" 252.101
+cap "vssa1" "m3_466536_670726#" 252.101
 cap "vssa1" "VCO_Flat_0/OUT_5" 384.65
 cap "vssa1" "VCO_Flat_0/OUT_4" 384.65
 cap "VCO_Flat_0/OUT_3" "vssa1" 225.94
-cap "VCO_Flat_0/OUT_3" "vssa1" 45.345
+cap "vssa1" "VCO_Flat_0/OUT_3" 45.345
 cap "vssa1" "VCO_Flat_0/VB" 821.32
 cap "VCO_Flat_0/VB" "vssa1" 401.325
 cap "VCO_Flat_0/OUT_5" "vssa1" 450.44
 cap "vssa1" "VCO_Flat_0/VN" 50.25
+cap "vssa1" "VCO_Flat_0/VN" 279.167
+cap "VCO_Flat_0/VN" "vssa1" 279.167
+cap "vssa1" "VCO_Flat_0/VN" 279.167
+cap "vssa1" "VCO_Flat_0/VN" 279.167
+cap "VCO_Flat_0/OUT_4" "vssa1" 450.44
 cap "VCO_Flat_0/VN" "vssa1" 279.167
 cap "vssa1" "VCO_Flat_0/VN" 279.167
 cap "vssa1" "VCO_Flat_0/VN" 279.167
-cap "vssa1" "VCO_Flat_0/VN" 279.167
-cap "vssa1" "VCO_Flat_0/OUT_4" 450.44
-cap "vssa1" "VCO_Flat_0/VN" 279.167
-cap "vssa1" "VCO_Flat_0/VN" 279.167
-cap "VCO_Flat_0/VN" "vssa1" 279.167
 cap "VCO_Flat_0/VN" "vssa1" 279.167
 cap "vssa1" "VCO_Flat_0/OUT_3" 274.96
 cap "vssa1" "VCO_Flat_0/VN" 279.167
-cap "vssa1" "VCO_Flat_0/OUT_3" 60.825
+cap "VCO_Flat_0/VN" "vssa1" 279.167
+cap "VCO_Flat_0/OUT_3" "vssa1" 60.825
+cap "VCO_Flat_0/VN" "vssa1" 279.167
 cap "VCO_Flat_0/VN" "vssa1" 279.167
 cap "vssa1" "VCO_Flat_0/VN" 279.167
-cap "VCO_Flat_0/VN" "vssa1" 279.167
-cap "VCO_Flat_0/VN" "vssa1" 279.167
-cap "vssa1" "VCO_Flat_0/VB" 886.64
-cap "VCO_Flat_0/VN" "vssa1" 279.167
-cap "VCO_Flat_0/VB" "vssa1" 435.405
 cap "vssa1" "VCO_Flat_0/VN" 279.167
+cap "VCO_Flat_0/VB" "vssa1" 886.64
 cap "vssa1" "VCO_Flat_0/VN" 279.167
+cap "vssa1" "VCO_Flat_0/VB" 435.405
+cap "VCO_Flat_0/VN" "vssa1" 279.167
 cap "vssa1" "VCO_Flat_0/VN" 274.189
 cap "VCO_Flat_0/OUT_5" "vssa1" 80.077
 cap "vssa1" "VCO_Flat_0/VN" 145.552
 cap "VCO_Flat_0/VN" "vssa1" 808.621
 cap "VCO_Flat_0/VN" "vssa1" 808.621
 cap "vssa1" "VCO_Flat_0/VN" 808.621
+cap "VCO_Flat_0/VN" "vssa1" 808.621
 cap "vssa1" "VCO_Flat_0/VN" 808.621
 cap "VCO_Flat_0/OUT_4" "vssa1" 80.077
 cap "vssa1" "VCO_Flat_0/VN" 808.621
-cap "vssa1" "VCO_Flat_0/VN" 808.621
-cap "vssa1" "VCO_Flat_0/VN" 808.621
-cap "vssa1" "VCO_Flat_0/VN" 808.621
 cap "VCO_Flat_0/VN" "vssa1" 808.621
-cap "vssa1" "VCO_Flat_0/OUT_3" 51.866
-cap "vssa1" "VCO_Flat_0/OUT_3" -83.411
-cap "vssa1" "VCO_Flat_0/VN" 808.621
 cap "VCO_Flat_0/VN" "vssa1" 808.621
-cap "vssa1" "VCO_Flat_0/VN" 808.621
 cap "VCO_Flat_0/VN" "vssa1" 808.621
-cap "VCO_Flat_0/VB" "vssa1" 75.9528
+cap "VCO_Flat_0/OUT_3" "vssa1" 51.866
+cap "VCO_Flat_0/VN" "vssa1" 808.621
+cap "VCO_Flat_0/OUT_3" "vssa1" -83.411
+cap "VCO_Flat_0/VN" "vssa1" 808.621
+cap "VCO_Flat_0/VN" "vssa1" 808.621
+cap "VCO_Flat_0/VN" "vssa1" 808.621
+cap "VCO_Flat_0/VN" "vssa1" 808.621
+cap "vssa1" "VCO_Flat_0/VB" 75.9528
 cap "VCO_Flat_0/VN" "vssa1" 808.621
 cap "vssa1" "VCO_Flat_0/VB" -126.172
 cap "vssa1" "VCO_Flat_0/VN" 808.621
-cap "VCO_Flat_0/VN" "vssa1" 808.621
-cap "VCO_Flat_0/VN" "vssa1" 796.338
+cap "vssa1" "VCO_Flat_0/VN" 796.338
 cap "VCO_Flat_0/VP" "VCO_Flat_0/VP" 0.884
 cap "VCO_Flat_0/VP" "VCO_Flat_0/VP" 6.16
 cap "VCO_Flat_0/VP" "VCO_Flat_0/VP" 6.16
@@ -1521,122 +1544,121 @@ cap "VCO_Flat_0/VP" "VCO_Flat_0/VP" 171.174
 cap "vccd1" "VCO_Flat_0/VP" 181.44
 cap "VCO_Flat_0/VP" "vccd1" 181.44
 cap "VCO_Flat_0/VP" "vccd1" 181.44
-cap "vccd1" "VCO_Flat_0/VP" 181.44
-cap "vccd1" "VCO_Flat_0/VP" 181.44
 cap "VCO_Flat_0/VP" "vccd1" 181.44
 cap "VCO_Flat_0/VP" "vccd1" 181.44
 cap "vccd1" "VCO_Flat_0/VP" 181.44
-cap "VCO_Flat_0/VP" "vccd1" 39.3984
+cap "VCO_Flat_0/VP" "vccd1" 181.44
+cap "VCO_Flat_0/VP" "vccd1" 181.44
+cap "vccd1" "VCO_Flat_0/VP" 39.3984
 cap "m1_510626_625510#" "esd_6/GND" 0.242754
-cap "esd_6/GND" "esd_6/in" -811.654
-cap "esd_0/in" "esd_0/GND" -772.728
+cap "esd_6/in" "esd_6/GND" -811.654
+cap "esd_0/GND" "esd_0/in" -772.728
 cap "esd_0/GND" "esd_0/in" 61.79
 cap "esd_5/in" "esd_5/GND" -553.684
 cap "esd_4/in" "esd_4/GND" -625.634
-cap "esd_3/GND" "esd_3/in" -766.147
-cap "esd_2/GND" "esd_2/in" -732.12
+cap "esd_3/in" "esd_3/GND" -766.147
+cap "esd_2/in" "esd_2/GND" -732.12
 cap "esd_1/GND" "esd_1/in" 1.24894
-cap "esd_1/GND" "esd_1/in" -823.03
+cap "esd_1/in" "esd_1/GND" -823.03
 cap "esd_6/GND" "m1_510626_625510#" 0.0407543
-cap "esd_6/in" "esd_6/GND" 1.76468
-cap "esd_3/GND" "esd_3/in" 2.4149
-cap "esd_1/GND" "esd_1/in" 0.168297
+cap "esd_6/GND" "esd_6/in" 1.76468
+cap "esd_3/in" "esd_3/GND" 2.4149
+cap "esd_1/in" "esd_1/GND" 0.168297
 cap "esd_1/in" "esd_1/GND" 1.60213
 cap "io_analog[7]" "esd_6/VDD" 0.571185
 cap "esd_6/VDD" "esd_6/out" -878.719
-cap "esd_0/VDD" "esd_0/out" -610.702
-cap "esd_0/VDD" "esd_0/out" 107.574
-cap "esd_5/VDD" "esd_5/out" 40.2746
+cap "esd_0/out" "esd_0/VDD" -610.702
+cap "esd_0/out" "esd_0/VDD" 107.574
+cap "esd_5/out" "esd_5/VDD" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 25.6569
-cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/out" "esd_5/VDD" 40.2746
-cap "esd_5/VDD" "esd_5/out" 40.2746
-cap "esd_5/VDD" "esd_5/out" 40.2746
+cap "esd_5/out" "esd_5/VDD" 40.2746
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" -142.327
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/out" "esd_5/VDD" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/out" "esd_5/VDD" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/out" "esd_5/VDD" 40.2746
+cap "esd_5/VDD" "esd_5/out" 40.2746
+cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 15.3646
+cap "esd_5/VDD" "esd_5/out" 40.2746
+cap "esd_5/VDD" "esd_5/out" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/out" "esd_5/VDD" 40.2746
+cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/out" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" -132.035
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/out" 40.2746
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 45.1581
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/out" 40.2746
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/out" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" -161.828
-cap "io_analog[5]" "esd_5/VDD" -666.934
-cap "esd_5/VDD" "esd_5/out" 40.2746
-cap "esd_5/VDD" "esd_5/out" 40.2746
+cap "esd_5/VDD" "io_analog[5]" -666.934
 cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/in" "esd_5/VDD" 40.2746
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/in" "esd_5/VDD" 40.2746
-cap "esd_5/in" "esd_5/VDD" 40.2746
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/in" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" 39.1994
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/in" 40.2746
+cap "esd_5/VDD" "esd_5/in" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" -0.8864
 cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/in" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" -155.869
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/in" 40.2746
-cap "esd_5/VDD" "esd_5/in" 40.2746
-cap "esd_5/VDD" "esd_5/in" 40.2746
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" 28.9071
-cap "esd_5/VDD" "esd_5/in" 40.2746
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" 49.73
-cap "esd_5/VDD" "esd_5/VDD" -115.784
 cap "esd_5/in" "esd_5/VDD" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/in" 40.2746
-cap "esd_5/VDD" "esd_5/VDD" -145.577
+cap "esd_5/in" "esd_5/VDD" 40.2746
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/VDD" -155.869
+cap "esd_5/VDD" "esd_5/VDD" 28.9071
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/in" "esd_5/VDD" 40.2746
+cap "esd_5/VDD" "esd_5/VDD" -115.784
 cap "esd_5/VDD" "esd_5/in" 40.2746
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 49.73
 cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/in" "esd_5/VDD" 40.2746
+cap "esd_5/in" "esd_5/VDD" 40.2746
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/in" "esd_5/VDD" 40.2746
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/VDD" -145.577
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_5/VDD" "esd_5/VDD" 49.73
+cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 6.9408
-cap "esd_4/VDD" "esd_4/VDD" 47.14
-cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 35.7718
 cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
+cap "esd_4/VDD" "esd_4/VDD" 47.14
+cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" -46.0008
-cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" -3.019
+cap "esd_4/VDD" "esd_4/VDD" 47.14
+cap "esd_4/VDD" "esd_4/VDD" 47.14
+cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" -74.8318
-cap "esd_4/VDD" "esd_4/VDD" 47.14
-cap "esd_4/VDD" "esd_4/VDD" 47.14
-cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/out" "esd_4/VDD" -930.955
 cap "esd_4/VDD" "esd_4/VDD" 47.14
-cap "esd_4/VDD" "esd_4/VDD" 47.14
-cap "esd_4/VDD" "esd_4/VDD" 47.14
-cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" -59.1058
+cap "esd_4/VDD" "esd_4/VDD" 47.14
+cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 10.086
@@ -1644,17 +1666,18 @@ cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
+cap "esd_4/VDD" "esd_4/VDD" 47.14
+cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" -49.146
 cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_4/VDD" "esd_4/VDD" 47.14
-cap "esd_4/VDD" "esd_4/VDD" 47.14
 cap "esd_3/out" "esd_3/VDD" -930.485
-cap "esd_2/VDD" "esd_2/out" -744.64
-cap "esd_1/out" "esd_1/VDD" -884.654
-cap "esd_6/VDD" "esd_6/out" 3.2248
-cap "esd_4/VDD" "esd_4/out" 2.0612
+cap "esd_2/out" "esd_2/VDD" -744.64
+cap "esd_1/VDD" "esd_1/out" -884.654
+cap "esd_6/out" "esd_6/VDD" 3.2248
+cap "esd_4/out" "esd_4/VDD" 2.0612
 cap "esd_3/VDD" "esd_3/out" 1.7212
-merge "esd_1/VDD" "esd_2/VDD" -65067 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16500000 -28200 -21621321 -61394 -49623923 -180635 0 0
+merge "esd_1/VDD" "esd_2/VDD" -54336 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21621321 -61394 -49623923 -180635 0 0
 merge "esd_2/VDD" "esd_3/VDD"
 merge "esd_3/VDD" "esd_4/VDD"
 merge "esd_4/VDD" "esd_5/VDD"
@@ -1662,7 +1685,7 @@ merge "esd_5/VDD" "esd_0/VDD"
 merge "esd_0/VDD" "esd_6/VDD"
 merge "esd_6/VDD" "VCO_Flat_0/VP"
 merge "VCO_Flat_0/VP" "vccd1"
-merge "esd_1/GND" "esd_2/GND" -77004.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40116000 -57240 -19440564 -47301 -40347817 -178785 0 0
+merge "esd_1/GND" "esd_2/GND" -66273.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23616000 -29040 -19440564 -47301 -40347817 -178785 0 0
 merge "esd_2/GND" "esd_3/GND"
 merge "esd_3/GND" "esd_4/GND"
 merge "esd_4/GND" "esd_5/GND"
